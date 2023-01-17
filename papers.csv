@@ -1,0 +1,1717 @@
+title;authors;summary;categories;year
+ClimaBench: A Benchmark Dataset For Climate Change Text Understanding in English;[arxiv.Result.Author('Tanmay Laud'), arxiv.Result.Author('Daniel Spokoyny'), arxiv.Result.Author('Tom Corringham'), arxiv.Result.Author('Taylor Berg-Kirkpatrick')];"The topic of Climate Change (CC) has received limited attention in NLP
+despite its real world urgency. Activists and policy-makers need NLP tools in
+order to effectively process the vast and rapidly growing textual data produced
+on CC. Their utility, however, primarily depends on whether the current
+state-of-the-art models can generalize across various tasks in the CC domain.
+In order to address this gap, we introduce Climate Change Benchmark
+(ClimaBench), a benchmark collection of existing disparate datasets for
+evaluating model performance across a diverse set of CC NLU tasks
+systematically. Further, we enhance the benchmark by releasing two large-scale
+labelled text classification and question-answering datasets curated from
+publicly available environmental disclosures. Lastly, we provide an analysis of
+several generic and CC-oriented models answering whether fine-tuning on domain
+text offers any improvements across these tasks. We hope this work provides a
+standard assessment tool for research on CC text data.";['cs.CL', 'cs.AI', 'cs.IR', 'cs.LG'];2023
+Topic Modelling of Swedish Newspaper Articles about Coronavirus: a Case Study using Latent Dirichlet Allocation Method;[arxiv.Result.Author('Bernadeta Griciūtė'), arxiv.Result.Author('Lifeng Han'), arxiv.Result.Author('Alexander Koller'), arxiv.Result.Author('Goran Nenadic')];"Topic Modelling (TM) is from the research branches of natural language
+understanding (NLU) and natural language processing (NLP) that is to facilitate
+insightful analysis from large documents and datasets, such as a summarisation
+of main topics and the topic changes. This kind of discovery is getting more
+popular in real-life applications due to its impact on big data analytics. In
+this study, from the social-media and healthcare domain, we apply popular
+Latent Dirichlet Allocation (LDA) methods to model the topic changes in Swedish
+newspaper articles about Coronavirus. We describe the corpus we created
+including 6515 articles, methods applied, and statistics on topic changes over
+approximately 1 year and two months period of time from 17th January 2020 to
+13th March 2021. We hope this work can be an asset for grounding applications
+of topic modelling and can be inspiring for similar case studies in an era with
+pandemics, to support socio-economic impact research as well as clinical and
+healthcare analytics. Our data is openly available at https://github.
+com/poethan/Swed_Covid_TM Keywords: Latent Dirichlet Allocation (LDA); Topic
+Modelling; Coronavirus; Pandemics; Natural Language Understanding";['cs.CL', 'cs.SI'];2023
+A new conversational interaction concept for document creation and editing on mobile devices for visually impaired users;[arxiv.Result.Author('Alireza Darvishy'), arxiv.Result.Author('Hans-Peter Hutter'), arxiv.Result.Author('Edin Beljulji'), arxiv.Result.Author('Zeno Heeb')];"This paper describes the ongoing development of a conversational interaction
+concept that allows visually impaired users to easily create and edit text
+documents on mobile devices using mainly voice input. In order to verify the
+concept, a prototype app was developed and tested for both iOS and Android
+systems, based on the natural-language understanding (NLU) platform Google
+Dialogflow. The app and interaction concept were repeatedly tested by users
+with and without visual impairments. Based on their feedback, the concept was
+continuously refined, adapted and improved on both mobile platforms. In an
+iterative user-centred design approach, the following research questions were
+investigated: Can a visually impaired user rely mainly on speech commands to
+efficiently create and edit a document on mobile devices? User testing found
+that an interaction concept based on conversational speech commands was easy
+and intuitive for visually impaired users. However, it was also found that
+relying on speech commands alone created its own obstacles, and that a
+combination of gestures and voice interaction would be more robust. Future
+research and more extensive useability tests should be carried out among
+visually impaired users in order to optimize the interaction concept.";['cs.HC'];2023
+Language Models are Drummers: Drum Composition with Natural Language Pre-Training;[arxiv.Result.Author('Li Zhang'), arxiv.Result.Author('Chris Callison-Burch')];"Automatic music generation with artificial intelligence typically requires a
+large amount of data which is hard to obtain for many less common genres and
+musical instruments. To tackle this issue, we present ongoing work and
+preliminary findings on the possibility for deep models to transfer knowledge
+from language to music, by finetuning large language models pre-trained on a
+massive text corpus on only hundreds of MIDI files of drum performances. We
+show that by doing so, one of the largest, state-of-the-art models (GPT3) is
+capable of generating reasonable drum grooves, while models that are not
+pre-trained (Transformer) shows no such ability beyond naive repetition.
+Evaluating generated music is a challenging task, more so is evaluating drum
+grooves with little precedence in literature. Hence, we propose a tailored
+structural evaluation method and analyze drum grooves produced by GPT3 compared
+to those played by human professionals, exposing the strengths and weaknesses
+of such generation by language-to-music transfer. Our findings suggest that
+language-to-music transfer learning with large language models is viable and
+promising.";['cs.SD', 'cs.CL', 'eess.AS'];2023
+Cross-Model Comparative Loss for Enhancing Neuronal Utility in Language Understanding;[arxiv.Result.Author('Yunchang Zhu'), arxiv.Result.Author('Liang Pang'), arxiv.Result.Author('Kangxi Wu'), arxiv.Result.Author('Yanyan Lan'), arxiv.Result.Author('Huawei Shen'), arxiv.Result.Author('Xueqi Cheng')];"Current natural language understanding (NLU) models have been continuously
+scaling up, both in terms of model size and input context, introducing more
+hidden and input neurons. While this generally improves performance on average,
+the extra neurons do not yield a consistent improvement for all instances. This
+is because some hidden neurons are redundant, and the noise mixed in input
+neurons tends to distract the model. Previous work mainly focuses on
+extrinsically reducing low-utility neurons by additional post- or
+pre-processing, such as network pruning and context selection, to avoid this
+problem. Beyond that, can we make the model reduce redundant parameters and
+suppress input noise by intrinsically enhancing the utility of each neuron? If
+a model can efficiently utilize neurons, no matter which neurons are ablated
+(disabled), the ablated submodel should perform no better than the original
+full model. Based on such a comparison principle between models, we propose a
+cross-model comparative loss for a broad range of tasks. Comparative loss is
+essentially a ranking loss on top of the task-specific losses of the full and
+ablated models, with the expectation that the task-specific loss of the full
+model is minimal. We demonstrate the universal effectiveness of comparative
+loss through extensive experiments on 14 datasets from 3 distinct NLU tasks
+based on 4 widely used pretrained language models, and find it particularly
+superior for models with few parameters or long input.";['cs.CL', 'cs.IR', 'cs.LG'];2023
+Are All Steps Equally Important? Benchmarking Essentiality Detection of Events;[arxiv.Result.Author('Hongming Zhang'), arxiv.Result.Author('Yueguan Wang'), arxiv.Result.Author('Yuqian Deng'), arxiv.Result.Author('Haoyu Wang'), arxiv.Result.Author('Muhao Chen'), arxiv.Result.Author('Dan Roth')];"Natural language often describes events in different granularities, such that
+more coarse-grained (goal) events can often be decomposed into fine-grained
+sequences of (step) events. A critical but overlooked challenge in
+understanding an event process lies in the fact that the step events are not
+equally important to the central goal. In this paper, we seek to fill this gap
+by studying how well current models can understand the essentiality of
+different step events towards a goal event. As discussed by cognitive studies,
+such an ability enables the machine to mimic human's commonsense reasoning
+about preconditions and necessary efforts of daily-life tasks. Our work
+contributes with a high-quality corpus of (goal, step) pairs from a community
+guideline website WikiHow, where the steps are manually annotated with their
+essentiality w.r.t. the goal. The high IAA indicates that humans have a
+consistent understanding of the events. Despite evaluating various statistical
+and massive pre-trained NLU models, we observe that existing SOTA models all
+perform drastically behind humans, indicating the need for future investigation
+of this crucial yet challenging task.";['cs.CL', 'cs.AI'];2022
+"Machine Reading, Fast and Slow: When Do Models ""Understand"" Language?";[arxiv.Result.Author('Sagnik Ray Choudhury'), arxiv.Result.Author('Anna Rogers'), arxiv.Result.Author('Isabelle Augenstein')];"Two of the most fundamental challenges in Natural Language Understanding
+(NLU) at present are: (a) how to establish whether deep learning-based models
+score highly on NLU benchmarks for the 'right' reasons; and (b) to understand
+what those reasons would even be. We investigate the behavior of reading
+comprehension models with respect to two linguistic 'skills': coreference
+resolution and comparison. We propose a definition for the reasoning steps
+expected from a system that would be 'reading slowly', and compare that with
+the behavior of five models of the BERT family of various sizes, observed
+through saliency scores and counterfactual explanations. We find that for
+comparison (but not coreference) the systems based on larger encoders are more
+likely to rely on the 'right' information, but even they struggle with
+generalization, suggesting that they still learn specific lexical patterns
+rather than the general principles of comparison.";['cs.CL'];2022
+Adaptive Natural Language Generation for Task-oriented Dialogue via Reinforcement Learning;[arxiv.Result.Author('Atsumoto Ohashi'), arxiv.Result.Author('Ryuichiro Higashinaka')];"When a natural language generation (NLG) component is implemented in a
+real-world task-oriented dialogue system, it is necessary to generate not only
+natural utterances as learned on training data but also utterances adapted to
+the dialogue environment (e.g., noise from environmental sounds) and the user
+(e.g., users with low levels of understanding ability). Inspired by recent
+advances in reinforcement learning (RL) for language generation tasks, we
+propose ANTOR, a method for Adaptive Natural language generation for
+Task-Oriented dialogue via Reinforcement learning. In ANTOR, a natural language
+understanding (NLU) module, which corresponds to the user's understanding of
+system utterances, is incorporated into the objective function of RL. If the
+NLG's intentions are correctly conveyed to the NLU, which understands a
+system's utterances, the NLG is given a positive reward. We conducted
+experiments on the MultiWOZ dataset, and we confirmed that ANTOR could generate
+adaptive utterances against speech recognition errors and the different
+vocabulary levels of users.";['cs.CL', 'cs.AI'];2022
+Less is Better: Recovering Intended-Feature Subspace to Robustify NLU Models;[arxiv.Result.Author('Ting Wu'), arxiv.Result.Author('Tao Gui')];"Datasets with significant proportions of bias present threats for training a
+trustworthy model on NLU tasks. Despite yielding great progress, current
+debiasing methods impose excessive reliance on the knowledge of bias
+attributes. Definition of the attributes, however, is elusive and varies across
+different datasets. Furthermore, leveraging these attributes at input level to
+bias mitigation may leave a gap between intrinsic properties and the underlying
+decision rule. To narrow down this gap and liberate the supervision on bias, we
+suggest extending bias mitigation into feature space. Therefore, a novel model,
+Recovering Intended-Feature Subspace with Knowledge-Free (RISK) is developed.
+Assuming that shortcut features caused by various biases are unintended for
+prediction, RISK views them as redundant features. When delving into a lower
+manifold to remove redundancies, RISK reveals that an extremely low-dimensional
+subspace with intended features can robustly represent the highly biased
+dataset. Empirical results demonstrate our model can consistently improve model
+generalization to out-of-distribution set, and achieves a new state-of-the-art
+performance.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+Representing Affect Information in Word Embeddings;[arxiv.Result.Author('Yuhan Zhang'), arxiv.Result.Author('Wenqi Chen'), arxiv.Result.Author('Ruihan Zhang'), arxiv.Result.Author('Xiajie Zhang')];"A growing body of research in natural language processing (NLP) and natural
+language understanding (NLU) is investigating human-like knowledge learned or
+encoded in the word embeddings from large language models. This is a step
+towards understanding what knowledge language models capture that resembles
+human understanding of language and communication. Here, we investigated
+whether and how the affect meaning of a word (i.e., valence, arousal,
+dominance) is encoded in word embeddings pre-trained in large neural networks.
+We used the human-labeled dataset as the ground truth and performed various
+correlational and classification tests on four types of word embeddings. The
+embeddings varied in being static or contextualized, and how much affect
+specific information was prioritized during the pre-training and fine-tuning
+phase. Our analyses show that word embedding from the vanilla BERT model did
+not saliently encode the affect information of English words. Only when the
+BERT model was fine-tuned on emotion-related tasks or contained extra
+contextualized information from emotion-rich contexts could the corresponding
+embedding encode more relevant affect information.";['cs.CL'];2022
+Understanding Prior Bias and Choice Paralysis in Transformer-based Language Representation Models through Four Experimental Probes;[arxiv.Result.Author('Ke Shen'), arxiv.Result.Author('Mayank Kejriwal')];"Recent work on transformer-based neural networks has led to impressive
+advances on multiple-choice natural language understanding (NLU) problems, such
+as Question Answering (QA) and abductive reasoning. Despite these advances,
+there is limited work still on understanding whether these models respond to
+perturbed multiple-choice instances in a sufficiently robust manner that would
+allow them to be trusted in real-world situations. We present four confusion
+probes, inspired by similar phenomena first identified in the behavioral
+science community, to test for problems such as prior bias and choice
+paralysis. Experimentally, we probe a widely used transformer-based
+multiple-choice NLU system using four established benchmark datasets. Here we
+show that the model exhibits significant prior bias and to a lesser, but still
+highly significant degree, choice paralysis, in addition to other problems. Our
+results suggest that stronger testing protocols and additional benchmarks may
+be necessary before the language models are used in front-facing systems or
+decision making with real world consequences.";['cs.CL', 'cs.AI'];2022
+Decomposed Prompting: A Modular Approach for Solving Complex Tasks;[arxiv.Result.Author('Tushar Khot'), arxiv.Result.Author('Harsh Trivedi'), arxiv.Result.Author('Matthew Finlayson'), arxiv.Result.Author('Yao Fu'), arxiv.Result.Author('Kyle Richardson'), arxiv.Result.Author('Peter Clark'), arxiv.Result.Author('Ashish Sabharwal')];"Few-shot prompting is a surprisingly powerful way to use Large Language
+Models (LLMs) to solve various tasks. However, this approach struggles as the
+task complexity increases or when the individual reasoning steps of the task
+themselves are hard to learn, especially when embedded in more complex tasks.
+To address this, we propose Decomposed Prompting, a new approach to solve
+complex tasks by decomposing them (via prompting) into simpler sub-tasks that
+can be delegated to a library of prompting-based LLMs dedicated to these
+sub-tasks. This modular structure allows each prompt to be optimized for its
+specific sub-task, further decomposed if necessary, and even easily replaced
+with more effective prompts, trained models, or symbolic functions if desired.
+We show that the flexibility and modularity of Decomposed Prompting allows it
+to outperform prior work on few-shot prompting using GPT3. On symbolic
+reasoning tasks, we can further decompose sub-tasks that are hard for LLMs into
+even simpler solvable sub-tasks. When the complexity comes from the input
+length, we can recursively decompose the task into the same task but with
+smaller inputs. We also evaluate our approach on textual multi-step reasoning
+tasks: on long-context multi-hop QA task, we can more effectively teach the
+sub-tasks via our separate sub-tasks prompts; and on open-domain multi-hop QA,
+we can incorporate a symbolic information retrieval within our decomposition
+framework, leading to improved performance on both tasks.";['cs.CL'];2022
+Ask Me Anything: A simple strategy for prompting language models;[arxiv.Result.Author('Simran Arora'), arxiv.Result.Author('Avanika Narayan'), arxiv.Result.Author('Mayee F. Chen'), arxiv.Result.Author('Laurel Orr'), arxiv.Result.Author('Neel Guha'), arxiv.Result.Author('Kush Bhatia'), arxiv.Result.Author('Ines Chami'), arxiv.Result.Author('Frederic Sala'), arxiv.Result.Author('Christopher Ré')];"Large language models (LLMs) transfer well to new tasks out-of-the-box simply
+given a natural language prompt that demonstrates how to perform the task and
+no additional training. Prompting is a brittle process wherein small
+modifications to the prompt can cause large variations in the model
+predictions, and therefore significant effort is dedicated towards designing a
+painstakingly ""perfect prompt"" for a task. To mitigate the high degree of
+effort involved in prompt-design, we instead ask whether producing multiple
+effective, yet imperfect, prompts and aggregating them can lead to a high
+quality prompting strategy. Our observations motivate our proposed prompting
+method, ASK ME ANYTHING (AMA). We first develop an understanding of the
+effective prompt formats, finding that question-answering (QA) prompts, which
+encourage open-ended generation (""Who went to the park?"") tend to outperform
+those that restrict the model outputs (""John went to the park. Output True or
+False.""). Our approach recursively uses the LLM itself to transform task inputs
+to the effective QA format. We apply the collected prompts to obtain several
+noisy votes for the input's true label. We find that the prompts can have very
+different accuracies and complex dependencies and thus propose to use weak
+supervision, a procedure for combining the noisy predictions, to produce the
+final predictions for the inputs. We evaluate AMA across open-source model
+families (e.g., EleutherAI, BLOOM, OPT, and T0) and model sizes (125M-175B
+parameters), demonstrating an average performance lift of 10.2% over the
+few-shot baseline. This simple strategy enables the open-source GPT-J-6B model
+to match and exceed the performance of few-shot GPT3-175B on 15 of 20 popular
+benchmarks. Averaged across these tasks, the GPT-J-6B model outperforms
+few-shot GPT3-175B. We release our code here:
+https://github.com/HazyResearch/ama_prompting";['cs.CL'];2022
+Time Will Change Things: An Empirical Study on Dynamic Language Understanding in Social Media Classification;[arxiv.Result.Author('Yuji Zhang'), arxiv.Result.Author('Jing Li')];"Language features are ever-evolving in the real-world social media
+environment. Many trained models in natural language understanding (NLU),
+ineffective in semantic inference for unseen features, might consequently
+struggle with the deteriorating performance in dynamicity. To address this
+challenge, we empirically study social media NLU in a dynamic setup, where
+models are trained on the past data and test on the future. It better reflects
+the realistic practice compared to the commonly-adopted static setup of random
+data split. To further analyze model adaption to the dynamicity, we explore the
+usefulness of leveraging some unlabeled data created after a model is trained.
+The performance of unsupervised domain adaption baselines based on
+auto-encoding and pseudo-labeling and a joint framework coupling them both are
+examined in the experiments. Substantial results on four social media tasks
+imply the universally negative effects of evolving environments over
+classification accuracy, while auto-encoding and pseudo-labeling
+collaboratively show the best robustness in dynamicity.";['cs.CL'];2022
+On Task-Adaptive Pretraining for Dialogue Response Selection;[arxiv.Result.Author('Tzu-Hsiang Lin'), arxiv.Result.Author('Ta-Chung Chi'), arxiv.Result.Author('Anna Rumshisky')];"Recent advancements in dialogue response selection (DRS) are based on the
+\textit{task-adaptive pre-training (TAP)} approach, by first initializing their
+model with BERT~\cite{devlin-etal-2019-bert}, and adapt to dialogue data with
+dialogue-specific or fine-grained pre-training tasks. However, it is uncertain
+whether BERT is the best initialization choice, or whether the proposed
+dialogue-specific fine-grained learning tasks are actually better than MLM+NSP.
+This paper aims to verify assumptions made in previous works and understand the
+source of improvements for DRS. We show that initializing with RoBERTa achieve
+similar performance as BERT, and MLM+NSP can outperform all previously proposed
+TAP tasks, during which we also contribute a new state-of-the-art on the Ubuntu
+corpus. Additional analyses shows that the main source of improvements comes
+from the TAP step, and that the NSP task is crucial to DRS, different from
+common NLU tasks.";['cs.CL'];2022
+Microscopy is All You Need;[arxiv.Result.Author('Sergei V. Kalinin'), arxiv.Result.Author('Rama Vasudevan'), arxiv.Result.Author('Yongtao Liu'), arxiv.Result.Author('Ayana Ghosh'), arxiv.Result.Author('Kevin Roccapriore'), arxiv.Result.Author('Maxim Ziatdinov')];"We pose that microscopy offers an ideal real-world experimental environment
+for the development and deployment of active Bayesian and reinforcement
+learning methods. Indeed, the tremendous progress achieved by machine learning
+(ML) and artificial intelligence over the last decade has been largely achieved
+via the utilization of static data sets, from the paradigmatic MNIST to the
+bespoke corpora of text and image data used to train large models such as GPT3,
+DALLE and others. However, it is now recognized that continuous, minute
+improvements to state-of-the-art do not necessarily translate to advances in
+real-world applications. We argue that a promising pathway for the development
+of ML methods is via the route of domain-specific deployable algorithms in
+areas such as electron and scanning probe microscopy and chemical imaging. This
+will benefit both fundamental physical studies and serve as a test bed for more
+complex autonomous systems such as robotics and manufacturing. Favorable
+environment characteristics of scanning and electron microscopy include low
+risk, extensive availability of domain-specific priors and rewards, relatively
+small effects of exogeneous variables, and often the presence of both upstream
+first principles as well as downstream learnable physical models for both
+statics and dynamics. Recent developments in programmable interfaces, edge
+computing, and access to APIs facilitating microscope control, all render the
+deployment of ML codes on operational microscopes straightforward. We discuss
+these considerations and hope that these arguments will lead to creating a
+novel set of development targets for the ML community by accelerating both
+real-world ML applications and scientific progress.";['cond-mat.dis-nn', 'cs.LG'];2022
+Knowledge Distillation Transfer Sets and their Impact on Downstream NLU Tasks;[arxiv.Result.Author('Charith Peris'), arxiv.Result.Author('Lizhen Tan'), arxiv.Result.Author('Thomas Gueudre'), arxiv.Result.Author('Turan Gojayev'), arxiv.Result.Author('Pan Wei'), arxiv.Result.Author('Gokmen Oz')];"Teacher-student knowledge distillation is a popular technique for compressing
+today's prevailing large language models into manageable sizes that fit
+low-latency downstream applications. Both the teacher and the choice of
+transfer set used for distillation are crucial ingredients in creating a high
+quality student. Yet, the generic corpora used to pretrain the teacher and the
+corpora associated with the downstream target domain are often significantly
+different, which raises a natural question: should the student be distilled
+over the generic corpora, so as to learn from high-quality teacher predictions,
+or over the downstream task corpora to align with finetuning? Our study
+investigates this trade-off using Domain Classification (DC) and Intent
+Classification/Named Entity Recognition (ICNER) as downstream tasks. We distill
+several multilingual students from a larger multilingual LM with varying
+proportions of generic and task-specific datasets, and report their performance
+after finetuning on DC and ICNER. We observe significant improvements across
+tasks and test sets when only task-specific corpora is used. We also report on
+how the impact of adding task-specific data to the transfer set correlates with
+the similarity between generic and task-specific data. Our results clearly
+indicate that, while distillation from a generic LM benefits downstream tasks,
+students learn better using target domain data even if it comes at the price of
+noisier teacher predictions. In other words, target domain data still trumps
+teacher knowledge.";['cs.CL', 'cs.AI'];2022
+A Win-win Deal: Towards Sparse and Robust Pre-trained Language Models;[arxiv.Result.Author('Yuanxin Liu'), arxiv.Result.Author('Fandong Meng'), arxiv.Result.Author('Zheng Lin'), arxiv.Result.Author('Jiangnan Li'), arxiv.Result.Author('Peng Fu'), arxiv.Result.Author('Yanan Cao'), arxiv.Result.Author('Weiping Wang'), arxiv.Result.Author('Jie Zhou')];"Despite the remarkable success of pre-trained language models (PLMs), they
+still face two challenges: First, large-scale PLMs are inefficient in terms of
+memory footprint and computation. Second, on the downstream tasks, PLMs tend to
+rely on the dataset bias and struggle to generalize to out-of-distribution
+(OOD) data. In response to the efficiency problem, recent studies show that
+dense PLMs can be replaced with sparse subnetworks without hurting the
+performance. Such subnetworks can be found in three scenarios: 1) the
+fine-tuned PLMs, 2) the raw PLMs and then fine-tuned in isolation, and even
+inside 3) PLMs without any parameter fine-tuning. However, these results are
+only obtained in the in-distribution (ID) setting. In this paper, we extend the
+study on PLMs subnetworks to the OOD setting, investigating whether sparsity
+and robustness to dataset bias can be achieved simultaneously. To this end, we
+conduct extensive experiments with the pre-trained BERT model on three natural
+language understanding (NLU) tasks. Our results demonstrate that \textbf{sparse
+and robust subnetworks (SRNets) can consistently be found in BERT}, across the
+aforementioned three scenarios, using different training and compression
+methods. Furthermore, we explore the upper bound of SRNets using the OOD
+information and show that \textbf{there exist sparse and almost unbiased BERT
+subnetworks}. Finally, we present 1) an analytical study that provides insights
+on how to promote the efficiency of SRNets searching process and 2) a solution
+to improve subnetworks' performance at high sparsity. The code is available at
+https://github.com/llyx97/sparse-and-robust-PLM.";['cs.CL'];2022
+Entity Aware Syntax Tree Based Data Augmentation for Natural Language Understanding;[arxiv.Result.Author('Jiaxing Xu'), arxiv.Result.Author('Jianbin Cui'), arxiv.Result.Author('Jiangneng Li'), arxiv.Result.Author('Wenge Rong'), arxiv.Result.Author('Noboru Matsuda')];"Understanding the intention of the users and recognizing the semantic
+entities from their sentences, aka natural language understanding (NLU), is the
+upstream task of many natural language processing tasks. One of the main
+challenges is to collect a sufficient amount of annotated data to train a
+model. Existing research about text augmentation does not abundantly consider
+entity and thus performs badly for NLU tasks. To solve this problem, we propose
+a novel NLP data augmentation technique, Entity Aware Data Augmentation (EADA),
+which applies a tree structure, Entity Aware Syntax Tree (EAST), to represent
+sentences combined with attention on the entity. Our EADA technique
+automatically constructs an EAST from a small amount of annotated data, and
+then generates a large number of training instances for intent detection and
+slot filling. Experimental results on four datasets showed that the proposed
+technique significantly outperforms the existing data augmentation methods in
+terms of both accuracy and generalization ability.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+AraLegal-BERT: A pretrained language model for Arabic Legal text;[arxiv.Result.Author('Muhammad AL-Qurishi'), arxiv.Result.Author('Sarah AlQaseemi'), arxiv.Result.Author('Riad Soussi')];"The effectiveness of the BERT model on multiple linguistic tasks has been
+well documented. On the other hand, its potentials for narrow and specific
+domains such as Legal, have not been fully explored. In this paper, we examine
+how BERT can be used in the Arabic legal domain and try customizing this
+language model for several downstream tasks using several different
+domain-relevant training and testing datasets to train BERT from scratch. We
+introduce the AraLegal-BERT, a bidirectional encoder Transformer-based model
+that have been thoroughly tested and carefully optimized with the goal to
+amplify the impact of NLP-driven solution concerning jurisprudence, legal
+documents, and legal practice. We fine-tuned AraLegal-BERT and evaluated it
+against three BERT variations for Arabic language in three natural languages
+understanding (NLU) tasks. The results show that the base version of
+AraLegal-BERT achieve better accuracy than the general and original BERT over
+the Legal text.";['cs.CL'];2022
+"Revisiting the Roles of ""Text"" in Text Games";[arxiv.Result.Author('Yi Gu'), arxiv.Result.Author('Shunyu Yao'), arxiv.Result.Author('Chuang Gan'), arxiv.Result.Author('Joshua B. Tenenbaum'), arxiv.Result.Author('Mo Yu')];"Text games present opportunities for natural language understanding (NLU)
+methods to tackle reinforcement learning (RL) challenges. However, recent work
+has questioned the necessity of NLU by showing random text hashes could perform
+decently. In this paper, we pursue a fine-grained investigation into the roles
+of text in the face of different RL challenges, and reconcile that semantic and
+non-semantic language representations could be complementary rather than
+contrasting. Concretely, we propose a simple scheme to extract relevant
+contextual information into an approximate state hash as extra input for an
+RNN-based text agent. Such a lightweight plug-in achieves competitive
+performance with state-of-the-art text agents using advanced NLU techniques
+such as knowledge graph and passage retrieval, suggesting non-NLU methods might
+suffice to tackle the challenge of partial observability. However, if we remove
+RNN encoders and use approximate or even ground-truth state hash alone, the
+model performs miserably, which confirms the importance of semantic function
+approximation to tackle the challenge of combinatorially large observation and
+action spaces. Our findings and analysis provide new insights for designing
+better text game task setups and agents.";['cs.CL', 'cs.LG'];2022
+Knowledge Prompting in Pre-trained Language Model for Natural Language Understanding;[arxiv.Result.Author('Jianing Wang'), arxiv.Result.Author('Wenkang Huang'), arxiv.Result.Author('Qiuhui Shi'), arxiv.Result.Author('Hongbin Wang'), arxiv.Result.Author('Minghui Qiu'), arxiv.Result.Author('Xiang Li'), arxiv.Result.Author('Ming Gao')];"Knowledge-enhanced Pre-trained Language Model (PLM) has recently received
+significant attention, which aims to incorporate factual knowledge into PLMs.
+However, most existing methods modify the internal structures of fixed types of
+PLMs by stacking complicated modules, and introduce redundant and irrelevant
+factual knowledge from knowledge bases (KBs). In this paper, to address these
+problems, we introduce a seminal knowledge prompting paradigm and further
+propose a knowledge-prompting-based PLM framework KP-PLM. This framework can be
+flexibly combined with existing mainstream PLMs. Specifically, we first
+construct a knowledge sub-graph from KBs for each context. Then we design
+multiple continuous prompts rules and transform the knowledge sub-graph into
+natural language prompts. To further leverage the factual knowledge from these
+prompts, we propose two novel knowledge-aware self-supervised tasks including
+prompt relevance inspection and masked prompt modeling. Extensive experiments
+on multiple natural language understanding (NLU) tasks show the superiority of
+KP-PLM over other state-of-the-art methods in both full-resource and
+low-resource settings.";['cs.CL'];2022
+Systematicity in GPT-3's Interpretation of Novel English Noun Compounds;[arxiv.Result.Author('Siyan Li'), arxiv.Result.Author('Riley Carlson'), arxiv.Result.Author('Christopher Potts')];"Levin et al. (2019) show experimentally that the interpretations of novel
+English noun compounds (e.g., stew skillet), while not fully compositional, are
+highly predictable based on whether the modifier and head refer to artifacts or
+natural kinds. Is the large language model GPT-3 governed by the same
+interpretive principles? To address this question, we first compare Levin et
+al.'s experimental data with GPT-3 generations, finding a high degree of
+similarity. However, this evidence is consistent with GPT3 reasoning only about
+specific lexical items rather than the more abstract conceptual categories of
+Levin et al.'s theory. To probe more deeply, we construct prompts that require
+the relevant kind of conceptual reasoning. Here, we fail to find convincing
+evidence that GPT-3 is reasoning about more than just individual lexical items.
+These results highlight the importance of controlling for low-level
+distributional regularities when assessing whether a large language model
+latently encodes a deeper theory.";['cs.CL'];2022
+Team Flow at DRC2022: Pipeline System for Travel Destination Recommendation Task in Spoken Dialogue;[arxiv.Result.Author('Ryu Hirai'), arxiv.Result.Author('Atsumoto Ohashi'), arxiv.Result.Author('Ao Guo'), arxiv.Result.Author('Hideki Shiroma'), arxiv.Result.Author('Xulin Zhou'), arxiv.Result.Author('Yukihiko Tone'), arxiv.Result.Author('Shinya Iizuka'), arxiv.Result.Author('Ryuichiro Higashinaka')];"To improve the interactive capabilities of a dialogue system, e.g., to adapt
+to different customers, the Dialogue Robot Competition (DRC2022) was held. As
+one of the teams, we built a dialogue system with a pipeline structure
+containing four modules. The natural language understanding (NLU) and natural
+language generation (NLG) modules were GPT-2 based models, and the dialogue
+state tracking (DST) and policy modules were designed on the basis of
+hand-crafted rules. After the preliminary round of the competition, we found
+that the low variation in training examples for the NLU and failed
+recommendation due to the policy used were probably the main reasons for the
+limited performance of the system.";['cs.CL', 'cs.AI', 'cs.RO'];2022
+Textual Entailment Recognition with Semantic Features from Empirical Text Representation;[arxiv.Result.Author('Md Shajalal'), arxiv.Result.Author('Md Atabuzzaman'), arxiv.Result.Author('Maksuda Bilkis Baby'), arxiv.Result.Author('Md Rezaul Karim'), arxiv.Result.Author('Alexander Boden')];"Textual entailment recognition is one of the basic natural language
+understanding(NLU) tasks. Understanding the meaning of sentences is a
+prerequisite before applying any natural language processing(NLP) techniques to
+automatically recognize the textual entailment. A text entails a hypothesis if
+and only if the true value of the hypothesis follows the text. Classical
+approaches generally utilize the feature value of each word from word embedding
+to represent the sentences. In this paper, we propose a novel approach to
+identifying the textual entailment relationship between text and hypothesis,
+thereby introducing a new semantic feature focusing on empirical
+threshold-based semantic text representation. We employ an element-wise
+Manhattan distance vector-based feature that can identify the semantic
+entailment relationship between the text-hypothesis pair. We carried out
+several experiments on a benchmark entailment classification(SICK-RTE) dataset.
+We train several machine learning(ML) algorithms applying both semantic and
+lexical features to classify the text-hypothesis pair as entailment, neutral,
+or contradiction. Our empirical sentence representation technique enriches the
+semantic information of the texts and hypotheses found to be more efficient
+than the classical ones. In the end, our approach significantly outperforms
+known methods in understanding the meaning of the sentences for the textual
+entailment classification task.";['cs.CL', 'cs.AI'];2022
+Explainable Slot Type Attentions to Improve Joint Intent Detection and Slot Filling;[arxiv.Result.Author('Kalpa Gunaratna'), arxiv.Result.Author('Vijay Srinivasan'), arxiv.Result.Author('Akhila Yerukola'), arxiv.Result.Author('Hongxia Jin')];"Joint intent detection and slot filling is a key research topic in natural
+language understanding (NLU). Existing joint intent and slot filling systems
+analyze and compute features collectively for all slot types, and importantly,
+have no way to explain the slot filling model decisions. In this work, we
+propose a novel approach that: (i) learns to generate additional slot type
+specific features in order to improve accuracy and (ii) provides explanations
+for slot filling decisions for the first time in a joint NLU model. We perform
+an additional constrained supervision using a set of binary classifiers for the
+slot type specific feature learning, thus ensuring appropriate attention
+weights are learned in the process to explain slot filling decisions for
+utterances. Our model is inherently explainable and does not need any post-hoc
+processing. We evaluate our approach on two widely used datasets and show
+accuracy improvements. Moreover, a detailed analysis is also provided for the
+exclusive slot explainability.";['cs.LG', 'cs.AI', 'cs.CL'];2022
+Simple and Effective Gradient-Based Tuning of Sequence-to-Sequence Models;[arxiv.Result.Author('Jared Lichtarge'), arxiv.Result.Author('Chris Alberti'), arxiv.Result.Author('Shankar Kumar')];"Recent trends towards training ever-larger language models have substantially
+improved machine learning performance across linguistic tasks. However, the
+huge cost of training larger models can make tuning them prohibitively
+expensive, motivating the study of more efficient methods. Gradient-based
+hyper-parameter optimization offers the capacity to tune hyper-parameters
+during training, yet has not previously been studied in a sequence-to-sequence
+setting. We apply a simple and general gradient-based hyperparameter
+optimization method to sequence-to-sequence tasks for the first time,
+demonstrating both efficiency and performance gains over strong baselines for
+both Neural Machine Translation and Natural Language Understanding (NLU) tasks
+(via T5 pretraining). For translation, we show the method generalizes across
+language pairs, is more efficient than Bayesian hyper-parameter optimization,
+and that learned schedules for some hyper-parameters can out-perform even
+optimal constant-valued tuning. For T5, we show that learning hyper-parameters
+during pretraining can improve performance across downstream NLU tasks. When
+learning multiple hyper-parameters concurrently, we show that the global
+learning rate can follow a schedule over training that improves performance and
+is not explainable by the `short-horizon bias' of greedy methods
+\citep{wu2018}. We release the code used to facilitate further research.";['cs.CL', 'cs.LG'];2022
+Building the Intent Landscape of Real-World Conversational Corpora with Extractive Question-Answering Transformers;[arxiv.Result.Author('Jean-Philippe Corbeil'), arxiv.Result.Author('Mia Taige Li'), arxiv.Result.Author('Hadi Abdi Ghavidel')];"For companies with customer service, mapping intents inside their
+conversational data is crucial in building applications based on natural
+language understanding (NLU). Nevertheless, there is no established automated
+technique to gather the intents from noisy online chats or voice transcripts.
+Simple clustering approaches are not suited to intent-sparse dialogues. To
+solve this intent-landscape task, we propose an unsupervised pipeline that
+extracts the intents and the taxonomy of intents from real-world dialogues. Our
+pipeline mines intent-span candidates with an extractive Question-Answering
+Electra model and leverages sentence embeddings to apply a low-level density
+clustering followed by a top-level hierarchical clustering. Our results
+demonstrate the generalization ability of an ELECTRA large model fine-tuned on
+the SQuAD2 dataset to understand dialogues. With the right prompting question,
+this model achieves a rate of linguistic validation on intent spans beyond 85%.
+We furthermore reconstructed the intent schemes of five domains from the
+MultiDoGo dataset with an average recall of 94.3%.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+Unified Knowledge Prompt Pre-training for Customer Service Dialogues;[arxiv.Result.Author('Keqing He'), arxiv.Result.Author('Jingang Wang'), arxiv.Result.Author('Chaobo Sun'), arxiv.Result.Author('Wei Wu')];"Dialogue bots have been widely applied in customer service scenarios to
+provide timely and user-friendly experience. These bots must classify the
+appropriate domain of a dialogue, understand the intent of users, and generate
+proper responses. Existing dialogue pre-training models are designed only for
+several dialogue tasks and ignore weakly-supervised expert knowledge in
+customer service dialogues. In this paper, we propose a novel unified knowledge
+prompt pre-training framework, UFA (\textbf{U}nified Model \textbf{F}or
+\textbf{A}ll Tasks), for customer service dialogues. We formulate all the tasks
+of customer service dialogues as a unified text-to-text generation task and
+introduce a knowledge-driven prompt strategy to jointly learn from a mixture of
+distinct dialogue tasks. We pre-train UFA on a large-scale Chinese customer
+service corpus collected from practical scenarios and get significant
+improvements on both natural language understanding (NLU) and natural language
+generation (NLG) benchmarks.";['cs.CL'];2022
+InforMask: Unsupervised Informative Masking for Language Model Pretraining;[arxiv.Result.Author('Nafis Sadeq'), arxiv.Result.Author('Canwen Xu'), arxiv.Result.Author('Julian McAuley')];"Masked language modeling is widely used for pretraining large language models
+for natural language understanding (NLU). However, random masking is
+suboptimal, allocating an equal masking rate for all tokens. In this paper, we
+propose InforMask, a new unsupervised masking strategy for training masked
+language models. InforMask exploits Pointwise Mutual Information (PMI) to
+select the most informative tokens to mask. We further propose two
+optimizations for InforMask to improve its efficiency. With a one-off
+preprocessing step, InforMask outperforms random masking and previously
+proposed masking strategies on the factual recall benchmark LAMA and the
+question answering benchmark SQuAD v1 and v2.";['cs.CL'];2022
+Alexa Teacher Model: Pretraining and Distilling Multi-Billion-Parameter Encoders for Natural Language Understanding Systems;[arxiv.Result.Author('Jack FitzGerald'), arxiv.Result.Author('Shankar Ananthakrishnan'), arxiv.Result.Author('Konstantine Arkoudas'), arxiv.Result.Author('Davide Bernardi'), arxiv.Result.Author('Abhishek Bhagia'), arxiv.Result.Author('Claudio Delli Bovi'), arxiv.Result.Author('Jin Cao'), arxiv.Result.Author('Rakesh Chada'), arxiv.Result.Author('Amit Chauhan'), arxiv.Result.Author('Luoxin Chen'), arxiv.Result.Author('Anurag Dwarakanath'), arxiv.Result.Author('Satyam Dwivedi'), arxiv.Result.Author('Turan Gojayev'), arxiv.Result.Author('Karthik Gopalakrishnan'), arxiv.Result.Author('Thomas Gueudre'), arxiv.Result.Author('Dilek Hakkani-Tur'), arxiv.Result.Author('Wael Hamza'), arxiv.Result.Author('Jonathan Hueser'), arxiv.Result.Author('Kevin Martin Jose'), arxiv.Result.Author('Haidar Khan'), arxiv.Result.Author('Beiye Liu'), arxiv.Result.Author('Jianhua Lu'), arxiv.Result.Author('Alessandro Manzotti'), arxiv.Result.Author('Pradeep Natarajan'), arxiv.Result.Author('Karolina Owczarzak'), arxiv.Result.Author('Gokmen Oz'), arxiv.Result.Author('Enrico Palumbo'), arxiv.Result.Author('Charith Peris'), arxiv.Result.Author('Chandana Satya Prakash'), arxiv.Result.Author('Stephen Rawls'), arxiv.Result.Author('Andy Rosenbaum'), arxiv.Result.Author('Anjali Shenoy'), arxiv.Result.Author('Saleh Soltan'), arxiv.Result.Author('Mukund Harakere Sridhar'), arxiv.Result.Author('Liz Tan'), arxiv.Result.Author('Fabian Triefenbach'), arxiv.Result.Author('Pan Wei'), arxiv.Result.Author('Haiyang Yu'), arxiv.Result.Author('Shuai Zheng'), arxiv.Result.Author('Gokhan Tur'), arxiv.Result.Author('Prem Natarajan')];"We present results from a large-scale experiment on pretraining encoders with
+non-embedding parameter counts ranging from 700M to 9.3B, their subsequent
+distillation into smaller models ranging from 17M-170M parameters, and their
+application to the Natural Language Understanding (NLU) component of a virtual
+assistant system. Though we train using 70% spoken-form data, our teacher
+models perform comparably to XLM-R and mT5 when evaluated on the written-form
+Cross-lingual Natural Language Inference (XNLI) corpus. We perform a second
+stage of pretraining on our teacher models using in-domain data from our
+system, improving error rates by 3.86% relative for intent classification and
+7.01% relative for slot filling. We find that even a 170M-parameter model
+distilled from our Stage 2 teacher model has 2.88% better intent classification
+and 7.69% better slot filling error rates when compared to the 2.3B-parameter
+teacher trained only on public data (Stage 1), emphasizing the importance of
+in-domain data for pretraining. When evaluated offline using labeled NLU data,
+our 17M-parameter Stage 2 distilled model outperforms both XLM-R Base (85M
+params) and DistillBERT (42M params) by 4.23% to 6.14%, respectively. Finally,
+we present results from a full virtual assistant experimentation platform,
+where we find that models trained using our pretraining and distillation
+pipeline outperform models distilled from 85M-parameter teachers by 3.74%-4.91%
+on an automatic measurement of full-system user dissatisfaction.";['cs.CL', 'cs.AI', 'cs.LG', 'I.2.7'];2022
+Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change);[arxiv.Result.Author('Karthik Valmeekam'), arxiv.Result.Author('Alberto Olmo'), arxiv.Result.Author('Sarath Sreedharan'), arxiv.Result.Author('Subbarao Kambhampati')];"Recent advances in large language models (LLMs) have transformed the field of
+natural language processing (NLP). From GPT-3 to PaLM, the state-of-the-art
+performance on natural language tasks is being pushed forward with every new
+large language model. Along with natural language abilities, there has been a
+significant interest in understanding whether such models exhibit reasoning
+capabilities with the use of reasoning benchmarks. However, even though results
+are seemingly positive, these benchmarks prove to be simplistic in nature and
+the performance of LLMs on these benchmarks cannot be used as evidence to
+support, many a times outlandish, claims being made about LLMs' reasoning
+capabilities. Further, these only represent a very limited set of simple
+reasoning tasks and we need to look at more sophisticated reasoning problems if
+we are to measure the true limits of such LLM-based systems. Motivated by this,
+we propose an extensible assessment framework to test the capabilities of LLMs
+on reasoning about actions and change, a central aspect of human intelligence.
+We provide multiple test cases that are more involved than any of the
+previously established benchmarks and each test case evaluates a different
+aspect of reasoning about actions and change. Results on GPT-3 (davinci),
+Instruct-GPT3 (text-davinci-002) and BLOOM (176B), showcase subpar performance
+on such reasoning tasks.";['cs.CL', 'cs.AI'];2022
+reStructured Pre-training;[arxiv.Result.Author('Weizhe Yuan'), arxiv.Result.Author('Pengfei Liu')];"In this work, we try to decipher the internal connection of NLP technology
+development in the past decades, searching for essence, which rewards us with a
+(potential) new learning paradigm for NLP tasks, dubbed as reStructured
+Pre-training (RST). In such a paradigm, the role of data will be re-emphasized,
+and model pre-training and fine-tuning of downstream tasks are viewed as a
+process of data storing and accessing. Based on that, we operationalize the
+simple principle that a good storage mechanism should not only have the ability
+to cache a large amount of data but also consider the ease of access. We
+achieve this by pre-training models over restructured data that consist of a
+variety of valuable information instead of raw data after overcoming several
+engineering challenges. Experimentally, RST models not only surpass strong
+competitors (e.g., T0) on 52/55 popular datasets from a variety of NLP tasks,
+but also achieve superior performance in National College Entrance Examination
+- English (Gaokao-English),the most authoritative examination in China.
+Specifically, the proposed system Qin achieves 40 points higher than the
+average scores made by students and 15 points higher than GPT3 with 1/16
+parameters. In particular, Qin gets a high score of 138.5 (the full mark is
+150) in the 2018 English exam (national paper III). We have released the Gaokao
+Benchmark with an online submission platform.
+  In addition, we test our model in the 2022 College Entrance Examination
+English that happened a few days ago (2022.06.08), and it gets a total score of
+134 (v.s. GPT3's 108).";['cs.CL', 'cs.AI', 'cs.LG'];2022
+Unified BERT for Few-shot Natural Language Understanding;[arxiv.Result.Author('Junyu Lu'), arxiv.Result.Author('Ping Yang'), arxiv.Result.Author('Ruyi Gan'), arxiv.Result.Author('Jing Yang'), arxiv.Result.Author('Jiaxing Zhang')];"Even as pre-trained language models share a semantic encoder, natural
+language understanding suffers from a diversity of output schemas. In this
+paper, we propose UBERT, a unified bidirectional language understanding model
+based on BERT framework, which can universally model the training objects of
+different NLU tasks through a biaffine network. Specifically, UBERT encodes
+prior knowledge from various aspects, uniformly constructing learning
+representations across multiple NLU tasks, which is conducive to enhancing the
+ability to capture common semantic understanding. By using the biaffine to
+model scores pair of the start and end position of the original text, various
+classification and extraction structures can be converted into a universal,
+span-decoding approach. Experiments show that UBERT wins the first price in the
+2022 AIWIN - World Artificial Intelligence Innovation Competition, Chinese
+insurance few-shot multi-task track, and realizes the unification of extensive
+information extraction and linguistic reasoning tasks.";['cs.CL', 'cs.AI'];2022
+Meta Auxiliary Learning for Low-resource Spoken Language Understanding;[arxiv.Result.Author('Yingying Gao'), arxiv.Result.Author('Junlan Feng'), arxiv.Result.Author('Chao Deng'), arxiv.Result.Author('Shilei Zhang')];"Spoken language understanding (SLU) treats automatic speech recognition (ASR)
+and natural language understanding (NLU) as a unified task and usually suffers
+from data scarcity. We exploit an ASR and NLU joint training method based on
+meta auxiliary learning to improve the performance of low-resource SLU task by
+only taking advantage of abundant manual transcriptions of speech data. One
+obvious advantage of such method is that it provides a flexible framework to
+implement a low-resource SLU training task without requiring access to any
+further semantic annotations. In particular, a NLU model is taken as label
+generation network to predict intent and slot tags from texts; a multi-task
+network trains ASR task and SLU task synchronously from speech; and the
+predictions of label generation network are delivered to the multi-task network
+as semantic targets. The efficiency of the proposed algorithm is demonstrated
+with experiments on the public CATSLU dataset, which produces more suitable ASR
+hypotheses for the downstream NLU task.";['eess.AS', 'cs.CL', 'cs.SD'];2022
+ZoDIAC: Zoneout Dropout Injection Attention Calculation;[arxiv.Result.Author('Zanyar Zohourianshahzadi'), arxiv.Result.Author('Jugal Kalita')];"Recently the use of self-attention has yielded to state-of-the-art results in
+vision-language tasks such as image captioning as well as natural language
+understanding and generation (NLU and NLG) tasks and computer vision tasks such
+as image classification. This is since self-attention maps the internal
+interactions among the elements of input source and target sequences. Although
+self-attention successfully calculates the attention values and maps the
+relationships among the elements of input source and target sequence, yet there
+is no mechanism to control the intensity of attention. In real world, when
+communicating with each other face to face or vocally, we tend to express
+different visual and linguistic context with various amounts of intensity. Some
+words might carry (be spoken with) more stress and weight indicating the
+importance of that word in the context of the whole sentence. Based on this
+intuition, we propose Zoneout Dropout Injection Attention Calculation (ZoDIAC)
+in which the intensities of attention values in the elements of the input
+sequence are calculated with respect to the context of the elements of input
+sequence. The results of our experiments reveal that employing ZoDIAC leads to
+better performance in comparison with the self-attention module in the
+Transformer model. The ultimate goal is to find out if we could modify
+self-attention module in the Transformer model with a method that is
+potentially extensible to other models that leverage on self-attention at their
+core. Our findings suggest that this particular goal deserves further attention
+and investigation by the research community.
+  The code for ZoDIAC is available on www.github.com/zanyarz/zodiac .";['cs.CV'];2022
+Not Cheating on the Turing Test: Towards Grounded Language Learning in Artificial Intelligence;[arxiv.Result.Author('Lize Alberts')];"Recent hype surrounding the increasing sophistication of language processing
+models has renewed optimism regarding machines achieving a human-like command
+of natural language. Research in the area of natural language understanding
+(NLU) in artificial intelligence claims to have been making great strides in
+this area, however, the lack of conceptual clarity/consistency in how
+'understanding' is used in this and other disciplines makes it difficult to
+discern how close we actually are. In this interdisciplinary research thesis, I
+integrate insights from cognitive science/psychology, philosophy of mind, and
+cognitive linguistics, and evaluate it against a critical review of current
+approaches in NLU to explore the basic requirements--and remaining
+challenges--for developing artificially intelligent systems with human-like
+capacities for language use and comprehension.";"['cs.CL', 'cs.AI', '68T01', 'F.0; J.0; J.4; I.2']";2022
+Compressing Pre-trained Transformers via Low-Bit NxM Sparsity for Natural Language Understanding;[arxiv.Result.Author('Connor Holmes'), arxiv.Result.Author('Minjia Zhang'), arxiv.Result.Author('Yuxiong He'), arxiv.Result.Author('Bo Wu')];"In recent years, large pre-trained Transformer networks have demonstrated
+dramatic improvements in many natural language understanding tasks. However,
+the huge size of these models brings significant challenges to their
+fine-tuning and online deployment due to latency and cost constraints. New
+hardware supporting both N:M semi-structured sparsity and low-precision integer
+computation is a promising solution to boost DNN model serving efficiency.
+However, there have been very few studies that systematically investigate to
+what extent pre-trained Transformer networks benefit from the combination of
+these techniques, as well as how to best compress each component of the
+Transformer. We propose a flexible compression framework NxMiFormer that
+performs simultaneous sparsification and quantization using ADMM and STE-based
+QAT. Furthermore, we present and inexpensive, heuristic-driven search algorithm
+that identifies promising heterogeneous compression configurations that meet a
+compression ratio constraint. When evaluated across the GLUE suite of NLU
+benchmarks, our approach can achieve up to 93% compression of the encoders of a
+BERT model while retaining 98.2% of the original model accuracy and taking full
+advantage of the hardware's capabilities. Heterogeneous configurations found
+the by the search heuristic maintain 99.5% of the baseline accuracy while still
+compressing the model by 87.5%.";['cs.CL', 'cs.AI'];2022
+Is neural language acquisition similar to natural? A chronological probing study;[arxiv.Result.Author('Ekaterina Voloshina'), arxiv.Result.Author('Oleg Serikov'), arxiv.Result.Author('Tatiana Shavrina')];"The probing methodology allows one to obtain a partial representation of
+linguistic phenomena stored in the inner layers of the neural network, using
+external classifiers and statistical analysis. Pre-trained transformer-based
+language models are widely used both for natural language understanding (NLU)
+and natural language generation (NLG) tasks making them most commonly used for
+downstream applications. However, little analysis was carried out, whether the
+models were pre-trained enough or contained knowledge correlated with
+linguistic theory. We are presenting the chronological probing study of
+transformer English models such as MultiBERT and T5. We sequentially compare
+the information about the language learned by the models in the process of
+training on corpora. The results show that 1) linguistic information is
+acquired in the early stages of training 2) both language models demonstrate
+capabilities to capture various features from various levels of language,
+including morphology, syntax, and even discourse, while they also can
+inconsistently fail on tasks that are perceived as easy. We also introduce the
+open-source framework for chronological probing research, compatible with other
+transformer-based models.
+https://github.com/EkaterinaVoloshina/chronological_probing";['cs.CL'];2022
+A Customised Text Privatisation Mechanism with Differential Privacy;[arxiv.Result.Author('Huimin Chen'), arxiv.Result.Author('Fengran Mo'), arxiv.Result.Author('Cen Chen'), arxiv.Result.Author('Jamie Cui'), arxiv.Result.Author('Jian-Yun Nie')];"In Natural Language Understanding (NLU) applications, training an effective
+model often requires a massive amount of data. However, text data in the real
+world are scattered in different institutions or user devices. Directly sharing
+them with NLU service provider brings huge privacy risks, as text data often
+contains sensitive information, leading to potential privacy leakage. A typical
+way to protect privacy is to directly privatize raw text and leverage
+Differential Privacy (DP) to quantify the privacy protection level. However,
+existing text privatization mechanisms that privatize text by applying
+$d_{\mathcal{\chi}}$-privacy are not applicable for all similarity metrics and
+fail to achieve a good privacy-utility trade-off. This is primarily because (1)
+$d_{\mathcal{\chi}}$-privacy's strict requirements for similarity metrics; (2)
+they treat each input token equally. Bad utility-privacy trade-off performance
+impedes the adoption of current text privatization mechanisms in real-world
+applications. In this paper, we propose a Customised differentially private
+Text privatization mechanism (CusText) that assigns each input token a
+customized output set to provide more advanced adaptive privacy protection at
+the token level. It also overcomes the limitation for the similarity metrics
+caused by $d_{\mathcal{\chi}}$-privacy notion, by turning the mechanism to
+satisfy $\epsilon$-DP. Furthermore, we provide two new text privatization
+strategies to boost the utility of privatized text without compromising privacy
+and design a new attack strategy for further evaluating the protection level of
+our mechanism empirically from a new attack's view. We also conduct extensive
+experiments on two widely used datasets to demonstrate that our proposed
+mechanism CusText can achieve a better privacy-utility trade-off and practical
+application value than the existing methods.";['cs.CR'];2022
+Emotion detection of social data: APIs comparative study;[arxiv.Result.Author('Bilal Abu-Salih'), arxiv.Result.Author('Mohammad Alhabashneh'), arxiv.Result.Author('Dengya Zhu'), arxiv.Result.Author('Albara Awajan'), arxiv.Result.Author('Yazan Alshamaileh'), arxiv.Result.Author('Bashar Al-Shboul'), arxiv.Result.Author('Mohammad Alshraideh')];"The development of emotion detection technology has emerged as a highly
+valuable possibility in the corporate sector due to the nearly limitless uses
+of this new discipline, particularly with the unceasing propagation of social
+data. In recent years, the electronic marketplace has witnessed the
+establishment of a large number of start-up businesses with an almost sole
+focus on building new commercial and open-source tools and APIs for emotion
+detection and recognition. Yet, these tools and APIs must be continuously
+reviewed and evaluated, and their performances should be reported and
+discussed. There is a lack of research to empirically compare current emotion
+detection technologies in terms of the results obtained from each model using
+the same textual dataset. Also, there is a lack of comparative studies that
+apply benchmark comparison to social data. This study compares eight
+technologies; IBM Watson NLU, ParallelDots, Symanto-Ekman, Crystalfeel, Text to
+Emotion, Senpy, Textprobe, and NLP Cloud. The comparison was undertaken using
+two different datasets. The emotions from the chosen datasets were then derived
+using the incorporated APIs. The performance of these APIs was assessed using
+the aggregated scores that they delivered as well as the theoretically proven
+evaluation metrics such as the micro-average of accuracy, classification error,
+precision, recall, and f1-score. Lastly, the assessment of these APIs
+incorporating the evaluation measures is reported and discussed.";['cs.CL', 'cs.AI'];2022
+End-to-End Spoken Language Understanding: Performance analyses of a voice command task in a low resource setting;[arxiv.Result.Author('Thierry Desot'), arxiv.Result.Author('François Portet'), arxiv.Result.Author('Michel Vacher')];"Spoken Language Understanding (SLU) is a core task in most human-machine
+interaction systems. With the emergence of smart homes, smart phones and smart
+speakers, SLU has become a key technology for the industry. In a classical SLU
+approach, an Automatic Speech Recognition (ASR) module transcribes the speech
+signal into a textual representation from which a Natural Language
+Understanding (NLU) module extracts semantic information. Recently End-to-End
+SLU (E2E SLU) based on Deep Neural Networks has gained momentum since it
+benefits from the joint optimization of the ASR and the NLU parts, hence
+limiting the cascade of error effect of the pipeline architecture. However,
+little is known about the actual linguistic properties used by E2E models to
+predict concepts and intents from speech input. In this paper, we present a
+study identifying the signal features and other linguistic properties used by
+an E2E model to perform the SLU task. The study is carried out in the
+application domain of a smart home that has to handle non-English (here French)
+voice commands. The results show that a good E2E SLU performance does not
+always require a perfect ASR capability. Furthermore, the results show the
+superior capabilities of the E2E model in handling background noise and
+syntactic variation compared to the pipeline model. Finally, a finer-grained
+analysis suggests that the E2E model uses the pitch information of the input
+signal to identify voice command concepts. The results and methodology outlined
+in this paper provide a springboard for further analyses of E2E models in
+speech processing.";['cs.CL', 'cs.SD', 'eess.AS'];2022
+On the cross-lingual transferability of multilingual prototypical models across NLU tasks;[arxiv.Result.Author('Oralie Cattan'), arxiv.Result.Author('Christophe Servan'), arxiv.Result.Author('Sophie Rosset')];"Supervised deep learning-based approaches have been applied to task-oriented
+dialog and have proven to be effective for limited domain and language
+applications when a sufficient number of training examples are available. In
+practice, these approaches suffer from the drawbacks of domain-driven design
+and under-resourced languages. Domain and language models are supposed to grow
+and change as the problem space evolves. On one hand, research on transfer
+learning has demonstrated the cross-lingual ability of multilingual
+Transformers-based models to learn semantically rich representations. On the
+other, in addition to the above approaches, meta-learning have enabled the
+development of task and language learning algorithms capable of far
+generalization. Through this context, this article proposes to investigate the
+cross-lingual transferability of using synergistically few-shot learning with
+prototypical neural networks and multilingual Transformers-based models.
+Experiments in natural language understanding tasks on MultiATIS++ corpus shows
+that our approach substantially improves the observed transfer learning
+performances between the low and the high resource languages. More generally
+our approach confirms that the meaningful latent space learned in a given
+language can be can be generalized to unseen and under-resourced ones using
+meta-learning.";['cs.CL', '68T50', 'I.2.7'];2022
+giMLPs: Gate with Inhibition Mechanism in MLPs;[arxiv.Result.Author('Cheng Kang'), arxiv.Result.Author('Jindich Prokop'), arxiv.Result.Author('Lei Tong'), arxiv.Result.Author('Huiyu Zhou'), arxiv.Result.Author('Yong Hu'), arxiv.Result.Author('Daneil Novak')];"This paper presents a new model architecture, gate with inhibition MLP
+(giMLP).The gate with inhibition on CycleMLP (gi-CycleMLP) can produce equal
+performance on the ImageNet classification task, and it also improves the BERT,
+Roberta, and DeBERTaV3 models depending on two novel techniques. The first is
+the gating MLP, where matrix multiplications between the MLP and the trunk
+Attention input in further adjust models' adaptation. The second is inhibition
+which inhibits or enhances the branch adjustment, and with the inhibition
+levels increasing, it offers models more muscular features restriction. We show
+that the giCycleMLP with a lower inhibition level can be competitive with the
+original CycleMLP in terms of ImageNet classification accuracy. In addition, we
+also show through a comprehensive empirical study that these techniques
+significantly improve the performance of fine-tuning NLU downstream tasks. As
+for the gate with inhibition MLPs on DeBERTa (giDeBERTa) fine-tuning, we find
+it can achieve appealing results on most parts of NLU tasks without any extra
+pretraining again. We also find that with the use of Gate With Inhibition, the
+activation function should have a short and smooth negative tail, with which
+the unimportant features or the features that hurt models can be moderately
+inhibited. The experiments on ImageNet and twelve language downstream tasks
+demonstrate the effectiveness of Gate With Inhibition, both for image
+classification and for enhancing the capacity of nature language fine-tuning
+without any extra pretraining.";['cs.CL'];2022
+AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model;[arxiv.Result.Author('Saleh Soltan'), arxiv.Result.Author('Shankar Ananthakrishnan'), arxiv.Result.Author('Jack FitzGerald'), arxiv.Result.Author('Rahul Gupta'), arxiv.Result.Author('Wael Hamza'), arxiv.Result.Author('Haidar Khan'), arxiv.Result.Author('Charith Peris'), arxiv.Result.Author('Stephen Rawls'), arxiv.Result.Author('Andy Rosenbaum'), arxiv.Result.Author('Anna Rumshisky'), arxiv.Result.Author('Chandana Satya Prakash'), arxiv.Result.Author('Mukund Sridhar'), arxiv.Result.Author('Fabian Triefenbach'), arxiv.Result.Author('Apurv Verma'), arxiv.Result.Author('Gokhan Tur'), arxiv.Result.Author('Prem Natarajan')];"In this work, we demonstrate that multilingual large-scale
+sequence-to-sequence (seq2seq) models, pre-trained on a mixture of denoising
+and Causal Language Modeling (CLM) tasks, are more efficient few-shot learners
+than decoder-only models on various tasks. In particular, we train a 20 billion
+parameter multilingual seq2seq model called Alexa Teacher Model (AlexaTM 20B)
+and show that it achieves state-of-the-art (SOTA) performance on 1-shot
+summarization tasks, outperforming a much larger 540B PaLM decoder model.
+AlexaTM 20B also achieves SOTA in 1-shot machine translation, especially for
+low-resource languages, across almost all language pairs supported by the model
+(Arabic, English, French, German, Hindi, Italian, Japanese, Marathi,
+Portuguese, Spanish, Tamil, and Telugu) on Flores-101 dataset. We also show in
+zero-shot setting, AlexaTM 20B outperforms GPT3 (175B) on SuperGLUE and SQuADv2
+datasets and provides SOTA performance on multilingual tasks such as XNLI,
+XCOPA, Paws-X, and XWinograd. Overall, our results present a compelling case
+for seq2seq models as a powerful alternative to decoder-only models for
+Large-scale Language Model (LLM) training.";['cs.CL', 'cs.LG'];2022
+ShortcutLens: A Visual Analytics Approach for Exploring Shortcuts in Natural Language Understanding Dataset;[arxiv.Result.Author('Zhihua Jin'), arxiv.Result.Author('Xingbo Wang'), arxiv.Result.Author('Furui Cheng'), arxiv.Result.Author('Chunhui Sun'), arxiv.Result.Author('Qun Liu'), arxiv.Result.Author('Huamin Qu')];"Benchmark datasets play an important role in evaluating Natural Language
+Understanding (NLU) models. However, shortcuts -- unwanted biases in the
+benchmark datasets -- can damage the effectiveness of benchmark datasets in
+revealing models' real capabilities. Since shortcuts vary in coverage,
+productivity, and semantic meaning, it is challenging for NLU experts to
+systematically understand and avoid them when creating benchmark datasets. In
+this paper, we develop a visual analytics system, ShortcutLens, to help NLU
+experts explore shortcuts in NLU benchmark datasets. The system allows users to
+conduct multi-level exploration of shortcuts. Specifically, Statistics View
+helps users grasp the statistics such as coverage and productivity of shortcuts
+in the benchmark dataset. Template View employs hierarchical and interpretable
+templates to summarize different types of shortcuts. Instance View allows users
+to check the corresponding instances covered by the shortcuts. We conduct case
+studies and expert interviews to evaluate the effectiveness and usability of
+the system. The results demonstrate that ShortcutLens supports users in gaining
+a better understanding of benchmark dataset issues through shortcuts, inspiring
+them to create challenging and pertinent benchmark datasets.";['cs.HC', 'cs.CL', 'cs.LG'];2022
+HELP ME THINK: A Simple Prompting Strategy for Non-experts to Create Customized Content with Models;[arxiv.Result.Author('Swaroop Mishra'), arxiv.Result.Author('Elnaz Nouri')];"Controlling the text generated by language models and customizing the content
+has been a long-standing challenge. Existing prompting techniques proposed in
+pursuit of providing control are task-specific and lack generality; this
+provides overwhelming choices for non-expert users to find a suitable method
+for their task. The effort associated with those techniques, such as in writing
+examples, explanations, instructions, etc. further limits their adoption among
+non-expert users. In this paper, we propose a simple prompting strategy HELP ME
+THINK where we encourage GPT3 to help non-expert users by asking a set of
+relevant questions and leveraging user answers to execute the task. We
+demonstrate the efficacy of our technique HELP ME THINK on a variety of tasks.
+Specifically, we focus on tasks that are hard for average humans and require
+significant thinking to perform. We hope our work will encourage the
+development of unconventional ways to harness the power of large language
+models.";['cs.CL', 'cs.AI', 'cs.CV', 'cs.HC', 'cs.LG'];2022
+Effective Transfer Learning for Low-Resource Natural Language Understanding;[arxiv.Result.Author('Zihan Liu')];"Natural language understanding (NLU) is the task of semantic decoding of
+human languages by machines. NLU models rely heavily on large training data to
+ensure good performance. However, substantial languages and domains have very
+few data resources and domain experts. It is necessary to overcome the data
+scarcity challenge, when very few or even zero training samples are available.
+In this thesis, we focus on developing cross-lingual and cross-domain methods
+to tackle the low-resource issues. First, we propose to improve the model's
+cross-lingual ability by focusing on the task-related keywords, enhancing the
+model's robustness and regularizing the representations. We find that the
+representations for low-resource languages can be easily and greatly improved
+by focusing on just the keywords. Second, we present Order-Reduced Modeling
+methods for the cross-lingual adaptation, and find that modeling partial word
+orders instead of the whole sequence can improve the robustness of the model
+against word order differences between languages and task knowledge transfer to
+low-resource languages. Third, we propose to leverage different levels of
+domain-related corpora and additional masking of data in the pre-training for
+the cross-domain adaptation, and discover that more challenging pre-training
+can better address the domain discrepancy issue in the task knowledge transfer.
+Finally, we introduce a coarse-to-fine framework, Coach, and a cross-lingual
+and cross-domain parsing framework, X2Parser. Coach decomposes the
+representation learning process into a coarse-grained and a fine-grained
+feature learning, and X2Parser simplifies the hierarchical task structures into
+flattened ones. We observe that simplifying task structures makes the
+representation learning more effective for low-resource languages and domains.";['cs.CL', 'cs.AI'];2022
+Adapting Task-Oriented Dialogue Models for Email Conversations;[arxiv.Result.Author('Soham Deshmukh'), arxiv.Result.Author('Charles Lee')];"Intent detection is a key part of any Natural Language Understanding (NLU)
+system of a conversational assistant. Detecting the correct intent is essential
+yet difficult for email conversations where multiple directives and intents are
+present. In such settings, conversation context can become a key disambiguating
+factor for detecting the user's request from the assistant. One prominent way
+of incorporating context is modeling past conversation history like
+task-oriented dialogue models. However, the nature of email conversations (long
+form) restricts direct usage of the latest advances in task-oriented dialogue
+models. So in this paper, we provide an effective transfer learning framework
+(EMToD) that allows the latest development in dialogue models to be adapted for
+long-form conversations. We show that the proposed EMToD framework improves
+intent detection performance over pre-trained language models by 45% and over
+pre-trained dialogue models by 30% for task-oriented email conversations.
+Additionally, the modular nature of the proposed framework allows plug-and-play
+for any future developments in both pre-trained language and task-oriented
+dialogue models.";['cs.CL'];2022
+Z-Code++: A Pre-trained Language Model Optimized for Abstractive Summarization;[arxiv.Result.Author('Pengcheng He'), arxiv.Result.Author('Baolin Peng'), arxiv.Result.Author('Liyang Lu'), arxiv.Result.Author('Song Wang'), arxiv.Result.Author('Jie Mei'), arxiv.Result.Author('Yang Liu'), arxiv.Result.Author('Ruochen Xu'), arxiv.Result.Author('Hany Hassan Awadalla'), arxiv.Result.Author('Yu Shi'), arxiv.Result.Author('Chenguang Zhu'), arxiv.Result.Author('Wayne Xiong'), arxiv.Result.Author('Michael Zeng'), arxiv.Result.Author('Jianfeng Gao'), arxiv.Result.Author('Xuedong Huang')];"This paper presents Z-Code++, a new pre-trained language model optimized for
+abstractive text summarization. The model extends the state of the art
+encoder-decoder model using three techniques. First, we use a two-phase
+pre-training process to improve model's performance on low-resource
+summarization tasks. The model is first pre-trained using text corpora for
+language understanding, and then is continually pre-trained on summarization
+corpora for grounded text generation. Second, we replace self-attention layers
+in the encoder with disentangled attention layers, where each word is
+represented using two vectors that encode its content and position,
+respectively. Third, we use fusion-in-encoder, a simple yet effective method of
+encoding long sequences in a hierarchical manner. Z-Code++ creates new state of
+the art on 9 out of 13 text summarization tasks across 5 languages. Our model
+is parameter-efficient in that it outperforms the 600x larger PaLM-540B on
+XSum, and the finetuned 200x larger GPT3-175B on SAMSum. In zero-shot and
+few-shot settings, our model substantially outperforms the competing models.";"['cs.CL', 'cs.AI', 'cs.CL, cs.GL', 'I.2; I.7']";2022
+IndicSUPERB: A Speech Processing Universal Performance Benchmark for Indian languages;[arxiv.Result.Author('Tahir Javed'), arxiv.Result.Author('Kaushal Santosh Bhogale'), arxiv.Result.Author('Abhigyan Raman'), arxiv.Result.Author('Anoop Kunchukuttan'), arxiv.Result.Author('Pratyush Kumar'), arxiv.Result.Author('Mitesh M. Khapra')];"A cornerstone in AI research has been the creation and adoption of
+standardized training and test datasets to earmark the progress of
+state-of-the-art models. A particularly successful example is the GLUE dataset
+for training and evaluating Natural Language Understanding (NLU) models for
+English. The large body of research around self-supervised BERT-based language
+models revolved around performance improvements on NLU tasks in GLUE. To
+evaluate language models in other languages, several language-specific GLUE
+datasets were created. The area of speech language understanding (SLU) has
+followed a similar trajectory. The success of large self-supervised models such
+as wav2vec2 enable creation of speech models with relatively easy to access
+unlabelled data. These models can then be evaluated on SLU tasks, such as the
+SUPERB benchmark. In this work, we extend this to Indic languages by releasing
+the IndicSUPERB benchmark. Specifically, we make the following three
+contributions. (i) We collect Kathbath containing 1,684 hours of labelled
+speech data across 12 Indian languages from 1,218 contributors located in 203
+districts in India. (ii) Using Kathbath, we create benchmarks across 6 speech
+tasks: Automatic Speech Recognition, Speaker Verification, Speaker
+Identification (mono/multi), Language Identification, Query By Example, and
+Keyword Spotting for 12 languages. (iii) On the released benchmarks, we train
+and evaluate different self-supervised models alongside a commonly used
+baseline FBANK. We show that language-specific fine-tuned models are more
+accurate than baseline on most of the tasks, including a large gap of 76\% for
+the Language Identification task. However, for speaker identification,
+self-supervised models trained on large datasets demonstrate an advantage. We
+hope IndicSUPERB contributes to the progress of developing speech language
+understanding models for Indian languages.";['cs.CL', 'cs.SD', 'eess.AS'];2022
+Language Detoxification with Attribute-Discriminative Latent Space;[arxiv.Result.Author('Jin Myung Kwak'), arxiv.Result.Author('Minseon Kim'), arxiv.Result.Author('Sung Ju Hwang')];"Transformer-based Language Models (LMs) achieve remarkable performances on a
+variety of NLU tasks, but are also prone to generating toxic texts such as
+insults, threats, and profanities which limit their adaptations to the
+real-world applications. To overcome this issue, a few text generation
+approaches aim to detoxify toxic texts with additional LMs or perturbations.
+However, previous methods require excessive memory, computations, and time
+which are serious bottlenecks in their real-world application. To address such
+limitations, we propose an effective yet efficient method for language
+detoxification using an attribute-discriminative latent space. Specifically, we
+project the latent space of an original Transformer LM to a discriminative
+latent space on which the texts are well-separated by their attributes, with
+the help of a projection block and a discriminator. This allows the LM to
+control the text generation to be non-toxic with minimal memory and computation
+overhead. We validate our model, Attribute-Discriminative Language Model (ADLM)
+on detoxified language and dialogue generation tasks, on which our method
+significantly outperforms baselines both in performance and efficiency.";['cs.CL', 'cs.AI'];2022
+Training Dynamics for Curriculum Learning: A Study on Monolingual and Cross-lingual NLU;[arxiv.Result.Author('Fenia Christopoulou'), arxiv.Result.Author('Gerasimos Lampouras'), arxiv.Result.Author('Ignacio Iacobacci')];"Curriculum Learning (CL) is a technique of training models via ranking
+examples in a typically increasing difficulty trend with the aim of
+accelerating convergence and improving generalisability. Current approaches for
+Natural Language Understanding (NLU) tasks use CL to improve in-distribution
+data performance often via heuristic-oriented or task-agnostic difficulties. In
+this work, instead, we employ CL for NLU by taking advantage of training
+dynamics as difficulty metrics, i.e., statistics that measure the behavior of
+the model at hand on specific task-data instances during training and propose
+modifications of existing CL schedulers based on these statistics. Differently
+from existing works, we focus on evaluating models on in-distribution (ID),
+out-of-distribution (OOD) as well as zero-shot (ZS) cross-lingual transfer
+datasets. We show across several NLU tasks that CL with training dynamics can
+result in better performance mostly on zero-shot cross-lingual transfer and OOD
+settings with improvements up by 8.5% in certain cases. Overall, experiments
+indicate that training dynamics can lead to better performing models with
+smoother training compared to other difficulty metrics while being 20% faster
+on average. In addition, through analysis we shed light on the correlations of
+task-specific versus task-agnostic metrics.";['cs.CL'];2022
+Prompt-Tuning Can Be Much Better Than Fine-Tuning on Cross-lingual Understanding With Multilingual Language Models;[arxiv.Result.Author('Lifu Tu'), arxiv.Result.Author('Caiming Xiong'), arxiv.Result.Author('Yingbo Zhou')];"Pre-trained multilingual language models show significant performance gains
+for zero-shot cross-lingual model transfer on a wide range of natural language
+understanding (NLU) tasks. Previously, for zero-shot cross-lingual evaluation,
+pre-trained models are only fine-tuned on English data and tested on a variety
+of target languages. In this paper, we do cross-lingual evaluation on various
+NLU tasks (sentence classification, sequence labeling, question answering)
+using prompt-tuning and compare it with fine-tuning. The results show that
+prompt tuning achieves much better cross-lingual transfer than fine-tuning
+across datasets, with only 0.1% to 0.3% tuned parameters. Additionally, we
+demonstrate through the analysis that prompt tuning can have better
+cross-lingual transferability of representations on downstream tasks with
+better aligned decision boundaries.";['cs.CL', 'cs.AI'];2022
+Dense Feature Memory Augmented Transformers for COVID-19 Vaccination Search Classification;[arxiv.Result.Author('Jai Gupta'), arxiv.Result.Author('Yi Tay'), arxiv.Result.Author('Chaitanya Kamath'), arxiv.Result.Author('Vinh Q. Tran'), arxiv.Result.Author('Donald Metzler'), arxiv.Result.Author('Shailesh Bavadekar'), arxiv.Result.Author('Mimi Sun'), arxiv.Result.Author('Evgeniy Gabrilovich')];"With the devastating outbreak of COVID-19, vaccines are one of the crucial
+lines of defense against mass infection in this global pandemic. Given the
+protection they provide, vaccines are becoming mandatory in certain social and
+professional settings. This paper presents a classification model for detecting
+COVID-19 vaccination related search queries, a machine learning model that is
+used to generate search insights for COVID-19 vaccinations. The proposed method
+combines and leverages advancements from modern state-of-the-art (SOTA) natural
+language understanding (NLU) techniques such as pretrained Transformers with
+traditional dense features. We propose a novel approach of considering dense
+features as memory tokens that the model can attend to. We show that this new
+modeling approach enables a significant improvement to the Vaccine Search
+Insights (VSI) task, improving a strong well-established gradient-boosting
+baseline by relative +15% improvement in F1 score and +14% in precision.";['cs.IR', 'cs.AI', 'cs.LG', 'I.2.7'];2022
+AutoCAD: Automatically Generating Counterfactuals for Mitigating Shortcut Learning;[arxiv.Result.Author('Jiaxin Wen'), arxiv.Result.Author('Yeshuang Zhu'), arxiv.Result.Author('Jinchao Zhang'), arxiv.Result.Author('Jie Zhou'), arxiv.Result.Author('Minlie Huang')];"Recent studies have shown the impressive efficacy of counterfactually
+augmented data (CAD) for reducing NLU models' reliance on spurious features and
+improving their generalizability. However, current methods still heavily rely
+on human efforts or task-specific designs to generate counterfactuals, thereby
+impeding CAD's applicability to a broad range of NLU tasks. In this paper, we
+present AutoCAD, a fully automatic and task-agnostic CAD generation framework.
+AutoCAD first leverages a classifier to unsupervisedly identify rationales as
+spans to be intervened, which disentangles spurious and causal features. Then,
+AutoCAD performs controllable generation enhanced by unlikelihood training to
+produce diverse counterfactuals. Extensive evaluations on multiple
+out-of-domain and challenge benchmarks demonstrate that AutoCAD consistently
+and significantly boosts the out-of-distribution performance of powerful
+pre-trained models across different NLU tasks, which is comparable or even
+better than previous state-of-the-art human-in-the-loop or task-specific CAD
+methods. The code is publicly available at https://github.com/thu-coai/AutoCAD.";['cs.AI', 'cs.CL'];2022
+Demystifying Prompts in Language Models via Perplexity Estimation;[arxiv.Result.Author('Hila Gonen'), arxiv.Result.Author('Srini Iyer'), arxiv.Result.Author('Terra Blevins'), arxiv.Result.Author('Noah A. Smith'), arxiv.Result.Author('Luke Zettlemoyer')];"Language models can be prompted to perform a wide variety of zero- and
+few-shot learning problems. However, performance varies significantly with the
+choice of prompt, and we do not yet understand why this happens or how to pick
+the best prompts. In this work, we analyze the factors that contribute to this
+variance and establish a new empirical hypothesis: the performance of a prompt
+is coupled with the extent to which the model is familiar with the language it
+contains. Over a wide range of tasks, we show that the lower the perplexity of
+the prompt is, the better the prompt is able to perform the task. As a result,
+we devise a method for creating prompts: (1) automatically extend a small seed
+set of manually written prompts by paraphrasing using GPT3 and backtranslation
+and (2) choose the lowest perplexity prompts to get significant gains in
+performance.";['cs.CL'];2022
+Feature-Level Debiased Natural Language Understanding;[arxiv.Result.Author('Yougang Lyu'), arxiv.Result.Author('Piji Li'), arxiv.Result.Author('Yechang Yang'), arxiv.Result.Author('Maarten de Rijke'), arxiv.Result.Author('Pengjie Ren'), arxiv.Result.Author('Yukun Zhao'), arxiv.Result.Author('Dawei Yin'), arxiv.Result.Author('Zhaochun Ren')];"Natural language understanding (NLU) models often rely on dataset biases
+rather than intended task-relevant features to achieve high performance on
+specific datasets. As a result, these models perform poorly on datasets outside
+the training distribution. Some recent studies address this issue by reducing
+the weights of biased samples during the training process. However, these
+methods still encode biased latent features in representations and neglect the
+dynamic nature of bias, which hinders model prediction. We propose an NLU
+debiasing method, named debiasing contrastive learning (DCT), to simultaneously
+alleviate the above problems based on contrastive learning. We devise a
+debiasing, positive sampling strategy to mitigate biased latent features by
+selecting the least similar biased positive samples. We also propose a dynamic
+negative sampling strategy to capture the dynamic influence of biases by
+employing a bias-only model to dynamically select the most similar biased
+negative samples. We conduct experiments on three NLU benchmark datasets.
+Experimental results show that DCT outperforms state-of-the-art baselines on
+out-of-distribution datasets while maintaining in-distribution performance. We
+also verify that DCT can reduce biased latent features from the model's
+representation.";['cs.CL'];2022
+Collaborating Heterogeneous Natural Language Processing Tasks via Federated Learning;[arxiv.Result.Author('Chenhe Dong'), arxiv.Result.Author('Yuexiang Xie'), arxiv.Result.Author('Bolin Ding'), arxiv.Result.Author('Ying Shen'), arxiv.Result.Author('Yaliang Li')];"The increasing privacy concerns on personal private text data promote the
+development of federated learning (FL) in recent years. However, the existing
+studies on applying FL in NLP are not suitable to coordinate participants with
+heterogeneous or private learning objectives. In this study, we further broaden
+the application scope of FL in NLP by proposing an Assign-Then-Contrast
+(denoted as ATC) framework, which enables clients with heterogeneous NLP tasks
+to construct an FL course and learn useful knowledge from each other.
+Specifically, the clients are suggested to first perform local training with
+the unified tasks assigned by the server rather than using their own learning
+objectives, which is called the Assign training stage. After that, in the
+Contrast training stage, clients train with different local learning objectives
+and exchange knowledge with other clients who contribute consistent and useful
+model updates. We conduct extensive experiments on six widely-used datasets
+covering both Natural Language Understanding (NLU) and Natural Language
+Generation (NLG) tasks, and the proposed ATC framework achieves significant
+improvements compared with various baseline methods. The source code is
+available at
+\url{https://github.com/alibaba/FederatedScope/tree/master/federatedscope/nlp/hetero_tasks}.";['cs.CL'];2022
+Continuation KD: Improved Knowledge Distillation through the Lens of Continuation Optimization;[arxiv.Result.Author('Aref Jafari'), arxiv.Result.Author('Ivan Kobyzev'), arxiv.Result.Author('Mehdi Rezagholizadeh'), arxiv.Result.Author('Pascal Poupart'), arxiv.Result.Author('Ali Ghodsi')];"Knowledge Distillation (KD) has been extensively used for natural language
+understanding (NLU) tasks to improve a small model's (a student) generalization
+by transferring the knowledge from a larger model (a teacher). Although KD
+methods achieve state-of-the-art performance in numerous settings, they suffer
+from several problems limiting their performance. It is shown in the literature
+that the capacity gap between the teacher and the student networks can make KD
+ineffective. Additionally, existing KD techniques do not mitigate the noise in
+the teacher's output: modeling the noisy behaviour of the teacher can distract
+the student from learning more useful features. We propose a new KD method that
+addresses these problems and facilitates the training compared to previous
+techniques. Inspired by continuation optimization, we design a training
+procedure that optimizes the highly non-convex KD objective by starting with
+the smoothed version of this objective and making it more complex as the
+training proceeds. Our method (Continuation-KD) achieves state-of-the-art
+performance across various compact architectures on NLU (GLUE benchmark) and
+computer vision tasks (CIFAR-10 and CIFAR-100).";['cs.LG', 'cs.CL'];2022
+The Massively Multilingual Natural Language Understanding 2022 (MMNLU-22) Workshop and Competition;[arxiv.Result.Author('Christopher Hench'), arxiv.Result.Author('Charith Peris'), arxiv.Result.Author('Jack FitzGerald'), arxiv.Result.Author('Kay Rottmann')];"Despite recent progress in Natural Language Understanding (NLU), the creation
+of multilingual NLU systems remains a challenge. It is common to have NLU
+systems limited to a subset of languages due to lack of available data. They
+also often vary widely in performance. We launch a three-phase approach to
+address the limitations in NLU and help propel NLU technology to new heights.
+We release a 52 language dataset called the Multilingual Amazon SLU resource
+package (SLURP) for Slot-filling, Intent classification, and Virtual assistant
+Evaluation, or MASSIVE, in an effort to address parallel data availability for
+voice assistants. We organize the Massively Multilingual NLU 2022 Challenge to
+provide a competitive environment and push the state-of-the art in the
+transferability of models into other languages. Finally, we host the first
+Massively Multilingual NLU workshop which brings these components together. The
+MMNLU workshop seeks to advance the science behind multilingual NLU by
+providing a platform for the presentation of new research in the field and
+connecting teams working on this research direction. This paper summarizes the
+dataset, workshop and the competition and the findings of each phase.";['cs.CL'];2022
+Foresight -- Deep Generative Modelling of Patient Timelines using Electronic Health Records;[arxiv.Result.Author('Zeljko Kraljevic'), arxiv.Result.Author('Dan Bean'), arxiv.Result.Author('Anthony Shek'), arxiv.Result.Author('Rebecca Bendayan'), arxiv.Result.Author('Joshua Au Yeung'), arxiv.Result.Author('Alexander Deng'), arxiv.Result.Author('Alfie Baston'), arxiv.Result.Author('Jack Ross'), arxiv.Result.Author('Esther Idowu'), arxiv.Result.Author('James T Teo'), arxiv.Result.Author('Richard J Dobson')];"Electronic Health Records (EHRs) hold detailed longitudinal information about
+each patient's health status and general clinical history, a large portion of
+which is stored within the unstructured text. Temporal modelling of this
+medical history, which considers the sequence of events, can be used to
+forecast and simulate future events, estimate risk, suggest alternative
+diagnoses or forecast complications. While most prediction approaches use
+mainly structured data or a subset of single-domain forecasts and outcomes, we
+processed the entire free-text portion of EHRs for longitudinal modelling. We
+present Foresight, a novel GPT3-based pipeline that uses NER+L tools (i.e.
+MedCAT) to convert document text into structured, coded concepts, followed by
+providing probabilistic forecasts for future medical events such as disorders,
+medications, symptoms and interventions. Since large portions of EHR data are
+in text form, such an approach benefits from a granular and detailed view of a
+patient while introducing modest additional noise. On tests in two large UK
+hospitals (King's College Hospital, South London and Maudsley) and the US
+MIMIC-III dataset precision@10 of 0.80, 0.81 and 0.91 was achieved for
+forecasting the next biomedical concept. Foresight was also validated on 34
+synthetic patient timelines by 5 clinicians and achieved relevancy of 97% for
+the top forecasted candidate disorder. Foresight can be easily trained and
+deployed locally as it only requires free-text data (as a minimum). As a
+generative model, it can simulate follow-on disorders, medications and
+interventions for as many steps as required. Foresight is a general-purpose
+model for biomedical concept modelling that can be used for real-world risk
+estimation, virtual trials and clinical research to study the progression of
+diseases, simulate interventions and counterfactuals, and for educational
+purposes.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+Evaluating Byte and Wordpiece Level Models for Massively Multilingual Semantic Parsing;[arxiv.Result.Author('Massimo Nicosia'), arxiv.Result.Author('Francesco Piccinno')];"Token free approaches have been successfully applied to a series of word and
+span level tasks. In this work, we compare a byte-level (ByT5) and a wordpiece
+based (mT5) sequence to sequence model on the 51 languages of the MASSIVE
+multilingual semantic parsing dataset. We examine multiple experimental
+settings: (i) zero-shot, (ii) full gold data and (iii) zero-shot with synthetic
+data. By leveraging a state-of-the-art label projection method for machine
+translated examples, we are able to reduce the gap in exact match accuracy to
+only 5 points with respect to a model trained on gold data from all the
+languages. We additionally provide insights on the cross-lingual transfer of
+ByT5 and show how the model compares with respect to mT5 across all parameter
+sizes.";['cs.CL'];2022
+The KITMUS Test: Evaluating Knowledge Integration from Multiple Sources in Natural Language Understanding Systems;[arxiv.Result.Author('Akshatha Arodi'), arxiv.Result.Author('Martin Pömsl'), arxiv.Result.Author('Kaheer Suleman'), arxiv.Result.Author('Adam Trischler'), arxiv.Result.Author('Alexandra Olteanu'), arxiv.Result.Author('Jackie Chi Kit Cheung')];"Many state-of-the-art natural language understanding (NLU) models are based
+on pretrained neural language models. These models often make inferences using
+information from multiple sources. An important class of such inferences are
+those that require both background knowledge, presumably contained in a model's
+pretrained parameters, and instance-specific information that is supplied at
+inference time. However, the integration and reasoning abilities of NLU models
+in the presence of multiple knowledge sources have been largely understudied.
+In this work, we propose a test suite of coreference resolution tasks that
+require reasoning over multiple facts. Our dataset is organized into subtasks
+that differ in terms of which knowledge sources contain relevant facts. We
+evaluate state-of-the-art coreference resolution models on our dataset. Our
+results indicate that several models struggle to reason on-the-fly over
+knowledge observed both at pretrain time and at inference time. However, with
+task-specific training, a subset of models demonstrates the ability to
+integrate certain knowledge types from multiple sources.";['cs.CL', 'cs.LG'];2022
+Flowstorm: Open-Source Platform with Hybrid Dialogue Architecture;[arxiv.Result.Author('Jan Pichl'), arxiv.Result.Author('Petr Marek'), arxiv.Result.Author('Jakub Konrád'), arxiv.Result.Author('Petr Lorenc'), arxiv.Result.Author('Ondřej Kobza'), arxiv.Result.Author('Tomáš Zajíček'), arxiv.Result.Author('Jan Šedivý')];"This paper presents a conversational AI platform called Flowstorm. Flowstorm
+is an open-source SaaS project suitable for creating, running, and analyzing
+conversational applications. Thanks to the fast and fully automated build
+process, the dialogues created within the platform can be executed in seconds.
+Furthermore, we propose a novel dialogue architecture that uses a combination
+of tree structures with generative models. The tree structures are also used
+for training NLU models suitable for specific dialogue scenarios. However, the
+generative models are globally used across applications and extend the
+functionality of the dialogue trees. Moreover, the platform functionality
+benefits from out-of-the-box components, such as the one responsible for
+extracting data from utterances or working with crawled data. Additionally, it
+can be extended using a custom code directly in the platform. One of the
+essential features of the platform is the possibility to reuse the created
+assets across applications. There is a library of prepared assets where each
+developer can contribute. All of the features are available through a
+user-friendly visual editor.";['cs.AI'];2022
+AWTE-BERT:Attending to Wordpiece Tokenization Explicitly on BERT for Joint Intent Classification and SlotFilling;[arxiv.Result.Author('Yu Guo'), arxiv.Result.Author('Zhilong Xie'), arxiv.Result.Author('Xingyan Chen'), arxiv.Result.Author('Leilei Wang'), arxiv.Result.Author('Yu Zhao'), arxiv.Result.Author('Gang Wu')];"Intent classification and slot filling are two core tasks in natural language
+understanding (NLU). The interaction nature of the two tasks makes the joint
+models often outperform the single designs. One of the promising solutions,
+called BERT (Bidirectional Encoder Representations from Transformers), achieves
+the joint optimization of the two tasks. BERT adopts the wordpiece to tokenize
+each input token into multiple sub-tokens, which causes a mismatch between the
+tokens and the labels lengths. Previous methods utilize the hidden states
+corresponding to the first sub-token as input to the classifier, which limits
+performance improvement since some hidden semantic informations is discarded in
+the fine-tune process. To address this issue, we propose a novel joint model
+based on BERT, which explicitly models the multiple sub-tokens features after
+wordpiece tokenization, thereby generating the context features that contribute
+to slot filling. Specifically, we encode the hidden states corresponding to
+multiple sub-tokens into a context vector via the attention mechanism. Then, we
+feed each context vector into the slot filling encoder, which preserves the
+integrity of the sentence. Experimental results demonstrate that our proposed
+model achieves significant improvement on intent classification accuracy, slot
+filling F1, and sentence-level semantic frame accuracy on two public benchmark
+datasets. The F1 score of the slot filling in particular has been improved from
+96.1 to 98.2 (2.1% absolute) on the ATIS dataset.";['cs.CL', 'cs.AI'];2022
+PLUE: Language Understanding Evaluation Benchmark for Privacy Policies in English;[arxiv.Result.Author('Jianfeng Chi'), arxiv.Result.Author('Wasi Uddin Ahmad'), arxiv.Result.Author('Yuan Tian'), arxiv.Result.Author('Kai-Wei Chang')];"Privacy policies provide individuals with information about their rights and
+how their personal information is handled. Natural language understanding (NLU)
+technologies can support individuals and practitioners to understand better
+privacy practices described in lengthy and complex documents. However, existing
+efforts that use NLU technologies are limited by processing the language in a
+way exclusive to a single task focusing on certain privacy practices. To this
+end, we introduce the Privacy Policy Language Understanding Evaluation (PLUE)
+benchmark, a multi-task benchmark for evaluating the privacy policy language
+understanding across various tasks. We also collect a large corpus of privacy
+policies to enable privacy policy domain-specific language model pre-training.
+We demonstrate that domain-specific pre-training offers performance
+improvements across all tasks. We release the benchmark to encourage future
+research in this domain.";['cs.CL'];2022
+MULTI3NLU++: A Multilingual, Multi-Intent, Multi-Domain Dataset for Natural Language Understanding in Task-Oriented Dialogue;[arxiv.Result.Author('Nikita Moghe'), arxiv.Result.Author('Evgeniia Razumovskaia'), arxiv.Result.Author('Liane Guillou'), arxiv.Result.Author('Ivan Vulić'), arxiv.Result.Author('Anna Korhonen'), arxiv.Result.Author('Alexandra Birch')];"Task-oriented dialogue (TOD) systems have been applied in a range of domains
+to support human users to achieve specific goals. Systems are typically
+constructed for a single domain or language and do not generalise well beyond
+this. Their extension to other languages in particular is restricted by the
+lack of available training data for many of the world's languages. To support
+work on Natural Language Understanding (NLU) in TOD across multiple languages
+and domains simultaneously, we constructed MULTI3NLU++, a multilingual,
+multi-intent, multi-domain dataset. MULTI3NLU++ extends the English-only NLU++
+dataset to include manual translations into a range of high, medium and low
+resource languages (Spanish, Marathi, Turkish and Amharic), in two domains
+(banking and hotels). MULTI3NLU++ inherits the multi-intent property of NLU++,
+where an utterance may be labelled with multiple intents, providing a more
+realistic representation of a user's goals and aligning with the more complex
+tasks that commercial systems aim to model. We use MULTI3NLU++ to benchmark
+state-of-the-art multilingual language models as well as Machine Translation
+and Question Answering systems for the NLU task of intent detection for TOD
+systems in the multilingual setting. The results demonstrate the challenging
+nature of the dataset, particularly in the low-resource language setting.";['cs.CL'];2022
+Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions;[arxiv.Result.Author('Harsh Trivedi'), arxiv.Result.Author('Niranjan Balasubramanian'), arxiv.Result.Author('Tushar Khot'), arxiv.Result.Author('Ashish Sabharwal')];"Recent work has shown that large language models are capable of generating
+natural language reasoning steps or Chains-of-Thoughts (CoT) to answer a
+multi-step question when prompted to do so. This is insufficient, however, when
+the necessary knowledge is not available or up-to-date within a model's
+parameters. A straightforward approach to address this is to retrieve text from
+an external knowledge source using the question as a query and prepend it as
+context to the model's input. This, however, is also insufficient for
+multi-step QA where \textit{what to retrieve} depends on \textit{what has
+already been derived}. To address this issue we propose IRCoT, a new approach
+that interleaves retrieval with CoT for multi-step QA, guiding the retrieval
+with CoT and in turn using retrieved results to improve CoT. Our experiments
+with GPT3 show substantial improvements in retrieval (up to 22 points) and
+downstream QA (up to 16 points) over the baselines on four datasets: HotpotQA,
+2WikiMultihopQA, MuSiQue, and IIRC. Notably, our method also works well for
+much smaller models such as T5-Flan-large (0.7B) without any additional
+training.";['cs.CL'];2022
+Self-Instruct: Aligning Language Model with Self Generated Instructions;[arxiv.Result.Author('Yizhong Wang'), arxiv.Result.Author('Yeganeh Kordi'), arxiv.Result.Author('Swaroop Mishra'), arxiv.Result.Author('Alisa Liu'), arxiv.Result.Author('Noah A. Smith'), arxiv.Result.Author('Daniel Khashabi'), arxiv.Result.Author('Hannaneh Hajishirzi')];"Large ""instruction-tuned"" language models (finetuned to respond to
+instructions) have demonstrated a remarkable ability to generalize zero-shot to
+new tasks. Nevertheless, they depend heavily on human-written instruction data
+that is limited in quantity, diversity, and creativity, therefore hindering the
+generality of the tuned model. We introduce Self-Instruct, a framework for
+improving the instruction-following capabilities of pretrained language models
+by bootstrapping off its own generations. Our pipeline generates instruction,
+input, and output samples from a language model, then prunes them before using
+them to finetune the original model. Applying our method to vanilla GPT3, we
+demonstrate a 33% absolute improvement over the original model on
+Super-NaturalInstructions, on par with the performance of InstructGPT_001,
+which is trained with private user data and human annotations. For further
+evaluation, we curate a set of expert-written instructions for novel tasks, and
+show through human evaluation that tuning GPT3 with Self-Instruct outperforms
+using existing public instruction datasets by a large margin, leaving only a 5%
+absolute gap behind InstructGPT_001. Self-Instruct provides an almost
+annotation-free method for aligning pre-trained language models with
+instructions, and we release our large synthetic dataset to facilitate future
+studies on instruction tuning.";['cs.CL', 'cs.AI'];2022
+Spoken Language Understanding for Conversational AI: Recent Advances and Future Direction;[arxiv.Result.Author('Soyeon Caren Han'), arxiv.Result.Author('Siqu Long'), arxiv.Result.Author('Henry Weld'), arxiv.Result.Author('Josiah Poon')];"When a human communicates with a machine using natural language on the web
+and online, how can it understand the human's intention and semantic context of
+their talk? This is an important AI task as it enables the machine to construct
+a sensible answer or perform a useful action for the human. Meaning is
+represented at the sentence level, identification of which is known as intent
+detection, and at the word level, a labelling task called slot filling. This
+dual-level joint task requires innovative thinking about natural language and
+deep learning network design, and as a result, many approaches and models have
+been proposed and applied.
+  This tutorial will discuss how the joint task is set up and introduce Spoken
+Language Understanding/Natural Language Understanding (SLU/NLU) with Deep
+Learning techniques. We will cover the datasets, experiments and metrics used
+in the field. We will describe how the machine uses the latest NLP and Deep
+Learning techniques to address the joint task, including recurrent and
+attention-based Transformer networks and pre-trained models (e.g. BERT). We
+will then look in detail at a network that allows the two levels of the task,
+intent classification and slot filling, to interact to boost performance
+explicitly. We will do a code demonstration of a Python notebook for this model
+and attendees will have an opportunity to watch coding demo tasks on this joint
+NLU to further their understanding.";['cs.CL', 'cs.AI'];2022
+CORRPUS: Detecting Story Inconsistencies via Codex-Bootstrapped Neurosymbolic Reasoning;[arxiv.Result.Author('Yijiang River Dong'), arxiv.Result.Author('Lara J. Martin'), arxiv.Result.Author('Chris Callison-Burch')];"Story generation and understanding -- as with all NLG/NLU tasks -- has seen a
+surge in neurosymbolic work. Researchers have recognized that, while large
+language models (LLMs) have tremendous utility, they can be augmented with
+symbolic means to be even better and to make up for any flaws that the neural
+networks might have. However, symbolic methods are extremely costly in terms of
+the amount of time and expertise needed to create them. In this work, we
+capitalize on state-of-the-art Code-LLMs, such as Codex, to bootstrap the use
+of symbolic methods for tracking the state of stories and aiding in story
+understanding. We show that our CoRRPUS system and abstracted prompting
+procedures can beat current state-of-the-art structured LLM techniques on
+pre-existing story understanding tasks (bAbI task 2 and Re^3) with minimal hand
+engineering. We hope that this work can help highlight the importance of
+symbolic representations and specialized prompting for LLMs as these models
+require some guidance for performing reasoning tasks properly.";['cs.CL'];2022
+ORCA: A Challenging Benchmark for Arabic Language Understanding;[arxiv.Result.Author('AbdelRahim Elmadany'), arxiv.Result.Author('El Moatez Billah Nagoudi'), arxiv.Result.Author('Muhammad Abdul-Mageed')];"Due to their crucial role in all NLP, several benchmarks have been proposed
+to evaluate pretrained language models. In spite of these efforts, no public
+benchmark of diverse nature currently exists for evaluation of Arabic. This
+makes it challenging to measure progress for both Arabic and multilingual
+language models. This challenge is compounded by the fact that any benchmark
+targeting Arabic needs to take into account the fact that Arabic is not a
+single language but rather a collection of languages and varieties. In this
+work, we introduce ORCA, a publicly available benchmark for Arabic language
+understanding evaluation. ORCA is carefully constructed to cover diverse Arabic
+varieties and a wide range of challenging Arabic understanding tasks exploiting
+60 different datasets across seven NLU task clusters. To measure current
+progress in Arabic NLU, we use ORCA to offer a comprehensive comparison between
+18 multilingual and Arabic language models. We also provide a public
+leaderboard with a unified single-number evaluation metric (ORCA score) to
+facilitate future research.";['cs.CL', 'cs.AI'];2022
+Language models are better than humans at next-token prediction;[arxiv.Result.Author('Buck Shlegeris'), arxiv.Result.Author('Fabien Roger'), arxiv.Result.Author('Lawrence Chan'), arxiv.Result.Author('Euan McLean')];"Current language models are considered to have sub-human capabilities at
+natural language tasks like question-answering or writing code. However,
+language models are not trained to perform well at these tasks, they are
+trained to accurately predict the next token given previous tokes in tokenized
+text. It is not clear whether language models are better or worse than humans
+at next token prediction. To try to answer this question, we performed two
+distinct experiments to directly compare humans and language models on this
+front: one measuring top-1 accuracy and the other measuring perplexity. In both
+experiments, we find humans to be consistently \emph{worse} than even
+relatively small language models like GPT3-Ada at next-token prediction.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+Natural Language Interfaces to Data;[arxiv.Result.Author('Abdul Quamar'), arxiv.Result.Author('Vasilis Efthymiou'), arxiv.Result.Author('Chuan Lei'), arxiv.Result.Author('Fatma Özcan')];"Recent advances in NLU and NLP have resulted in renewed interest in natural
+language interfaces to data, which provide an easy mechanism for non-technical
+users to access and query the data. While early systems evolved from keyword
+search and focused on simple factual queries, the complexity of both the input
+sentences as well as the generated SQL queries has evolved over time. More
+recently, there has also been a lot of focus on using conversational interfaces
+for data analytics, empowering a line of non-technical users with quick
+insights into the data. There are three main challenges in natural language
+querying (NLQ): (1) identifying the entities involved in the user utterance,
+(2) connecting the different entities in a meaningful way over the underlying
+data source to interpret user intents, and (3) generating a structured query in
+the form of SQL or SPARQL.
+  There are two main approaches for interpreting a user's NLQ. Rule-based
+systems make use of semantic indices, ontologies, and KGs to identify the
+entities in the query, understand the intended relationships between those
+entities, and utilize grammars to generate the target queries. With the
+advances in deep learning (DL)-based language models, there have been many
+text-to-SQL approaches that try to interpret the query holistically using DL
+models. Hybrid approaches that utilize both rule-based techniques as well as DL
+models are also emerging by combining the strengths of both approaches.
+Conversational interfaces are the next natural step to one-shot NLQ by
+exploiting query context between multiple turns of conversation for
+disambiguation. In this article, we review the background technologies that are
+used in natural language interfaces, and survey the different approaches to
+NLQ. We also describe conversational interfaces for data analytics and discuss
+several benchmarks used for NLQ research and evaluation.";['cs.DB'];2022
+Zero-Shot Learning for Joint Intent and Slot Labeling;[arxiv.Result.Author('Rashmi Gangadharaiah'), arxiv.Result.Author('Balakrishnan Narayanaswamy')];"It is expensive and difficult to obtain the large number of sentence-level
+intent and token-level slot label annotations required to train neural network
+(NN)-based Natural Language Understanding (NLU) components of task-oriented
+dialog systems, especially for the many real world tasks that have a large and
+growing number of intents and slot types. While zero shot learning approaches
+that require no labeled examples -- only features and auxiliary information --
+have been proposed only for slot labeling, we show that one can profitably
+perform joint zero-shot intent classification and slot labeling. We demonstrate
+the value of capturing dependencies between intents and slots, and between
+different slots in an utterance in the zero shot setting. We describe NN
+architectures that translate between word and sentence embedding spaces, and
+demonstrate that these modifications are required to enable zero shot learning
+for this task. We show a substantial improvement over strong baselines and
+explain the intuition behind each architectural modification through
+visualizations and ablation studies.";['cs.CL', 'cs.AI'];2022
+Monte Carlo Tree Search Algorithms for Risk-Aware and Multi-Objective Reinforcement Learning;[arxiv.Result.Author('Conor F. Hayes'), arxiv.Result.Author('Mathieu Reymond'), arxiv.Result.Author('Diederik M. Roijers'), arxiv.Result.Author('Enda Howley'), arxiv.Result.Author('Patrick Mannion')];"In many risk-aware and multi-objective reinforcement learning settings, the
+utility of the user is derived from a single execution of a policy. In these
+settings, making decisions based on the average future returns is not suitable.
+For example, in a medical setting a patient may only have one opportunity to
+treat their illness. Making decisions using just the expected future returns --
+known in reinforcement learning as the value -- cannot account for the
+potential range of adverse or positive outcomes a decision may have. Therefore,
+we should use the distribution over expected future returns differently to
+represent the critical information that the agent requires at decision time by
+taking both the future and accrued returns into consideration. In this paper,
+we propose two novel Monte Carlo tree search algorithms. Firstly, we present a
+Monte Carlo tree search algorithm that can compute policies for nonlinear
+utility functions (NLU-MCTS) by optimising the utility of the different
+possible returns attainable from individual policy executions, resulting in
+good policies for both risk-aware and multi-objective settings. Secondly, we
+propose a distributional Monte Carlo tree search algorithm (DMCTS) which
+extends NLU-MCTS. DMCTS computes an approximate posterior distribution over the
+utility of the returns, and utilises Thompson sampling during planning to
+compute policies in risk-aware and multi-objective settings. Both algorithms
+outperform the state-of-the-art in multi-objective reinforcement learning for
+the expected utility of the returns.";['cs.AI', 'cs.LG'];2022
+TAPE: Assessing Few-shot Russian Language Understanding;[arxiv.Result.Author('Ekaterina Taktasheva'), arxiv.Result.Author('Tatiana Shavrina'), arxiv.Result.Author('Alena Fenogenova'), arxiv.Result.Author('Denis Shevelev'), arxiv.Result.Author('Nadezhda Katricheva'), arxiv.Result.Author('Maria Tikhonova'), arxiv.Result.Author('Albina Akhmetgareeva'), arxiv.Result.Author('Oleg Zinkevich'), arxiv.Result.Author('Anastasiia Bashmakova'), arxiv.Result.Author('Svetlana Iordanskaia'), arxiv.Result.Author('Alena Spiridonova'), arxiv.Result.Author('Valentina Kurenshchikova'), arxiv.Result.Author('Ekaterina Artemova'), arxiv.Result.Author('Vladislav Mikhailov')];"Recent advances in zero-shot and few-shot learning have shown promise for a
+scope of research and practical purposes. However, this fast-growing area lacks
+standardized evaluation suites for non-English languages, hindering progress
+outside the Anglo-centric paradigm. To address this line of research, we
+propose TAPE (Text Attack and Perturbation Evaluation), a novel benchmark that
+includes six more complex NLU tasks for Russian, covering multi-hop reasoning,
+ethical concepts, logic and commonsense knowledge. The TAPE's design focuses on
+systematic zero-shot and few-shot NLU evaluation: (i) linguistic-oriented
+adversarial attacks and perturbations for analyzing robustness, and (ii)
+subpopulations for nuanced interpretation. The detailed analysis of testing the
+autoregressive baselines indicates that simple spelling-based perturbations
+affect the performance the most, while paraphrasing the input has a more
+negligible effect. At the same time, the results demonstrate a significant gap
+between the neural and human baselines for most tasks. We publicly release TAPE
+(tape-benchmark.com) to foster research on robust LMs that can generalize to
+new tasks when little to no supervision is available.";['cs.CL'];2022
+AdaMix: Mixture-of-Adaptations for Parameter-efficient Model Tuning;[arxiv.Result.Author('Yaqing Wang'), arxiv.Result.Author('Sahaj Agarwal'), arxiv.Result.Author('Subhabrata Mukherjee'), arxiv.Result.Author('Xiaodong Liu'), arxiv.Result.Author('Jing Gao'), arxiv.Result.Author('Ahmed Hassan Awadallah'), arxiv.Result.Author('Jianfeng Gao')];"Standard fine-tuning of large pre-trained language models (PLMs) for
+downstream tasks requires updating hundreds of millions to billions of
+parameters, and storing a large copy of the PLM weights for every task
+resulting in increased cost for storing, sharing and serving the models. To
+address this, parameter-efficient fine-tuning (PEFT) techniques were introduced
+where small trainable components are injected in the PLM and updated during
+fine-tuning. We propose AdaMix as a general PEFT method that tunes a mixture of
+adaptation modules -- given the underlying PEFT method of choice -- introduced
+in each Transformer layer while keeping most of the PLM weights frozen. For
+instance, AdaMix can leverage a mixture of adapters like Houlsby or a mixture
+of low rank decomposition matrices like LoRA to improve downstream task
+performance over the corresponding PEFT methods for fully supervised and
+few-shot NLU and NLG tasks. Further, we design AdaMix such that it matches the
+same computational cost and the number of tunable parameters as the underlying
+PEFT method. By only tuning 0.1-0.2% of PLM parameters, we show that AdaMix
+outperforms SOTA parameter-efficient fine-tuning and full model fine-tuning for
+both NLU and NLG tasks.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+FCM: Forgetful Causal Masking Makes Causal Language Models Better Zero-Shot Learners;[arxiv.Result.Author('Hao Liu'), arxiv.Result.Author('Xinyang Geng'), arxiv.Result.Author('Lisa Lee'), arxiv.Result.Author('Igor Mordatch'), arxiv.Result.Author('Sergey Levine'), arxiv.Result.Author('Sharan Narang'), arxiv.Result.Author('Pieter Abbeel')];"Large language models (LLM) trained using the next-token-prediction
+objective, such as GPT3 and PaLM, have revolutionized natural language
+processing in recent years by showing impressive zero-shot and few-shot
+capabilities across a wide range of tasks. In this work, we propose a simple
+technique that significantly boosts the performance of LLMs without adding
+computational cost. Our key observation is that, by performing the next token
+prediction task with randomly selected past tokens masked out, we can improve
+the quality of the learned representations for downstream language
+understanding tasks. We hypothesize that randomly masking past tokens prevents
+over-attending to recent tokens and encourages attention to tokens in the
+distant past. By randomly masking input tokens in the PaLM model, we show that
+we can significantly improve 1B and 8B PaLM's zero-shot performance on the
+SuperGLUE benchmark from 55.7 to 59.2 and from 61.6 to 64.0, respectively. Our
+largest 8B model matches the score of PaLM with an average score of 64, despite
+the fact that PaLM is trained on a much larger dataset (780B tokens) of
+high-quality conversation and webpage data, while ours is trained on the
+smaller C4 dataset (180B tokens). Experimental results show that our method
+also improves PaLM's zero and few-shot performance on a diverse suite of tasks,
+including commonsense reasoning, natural language inference and cloze
+completion. Moreover, we show that our technique also helps representation
+learning, significantly improving PaLM's finetuning results.";['cs.CL'];2022
+IDK-MRC: Unanswerable Questions for Indonesian Machine Reading Comprehension;[arxiv.Result.Author('Rifki Afina Putri'), arxiv.Result.Author('Alice Oh')];"Machine Reading Comprehension (MRC) has become one of the essential tasks in
+Natural Language Understanding (NLU) as it is often included in several NLU
+benchmarks (Liang et al., 2020; Wilie et al., 2020). However, most MRC datasets
+only have answerable question type, overlooking the importance of unanswerable
+questions. MRC models trained only on answerable questions will select the span
+that is most likely to be the answer, even when the answer does not actually
+exist in the given passage (Rajpurkar et al., 2018). This problem especially
+remains in medium- to low-resource languages like Indonesian. Existing
+Indonesian MRC datasets (Purwarianti et al., 2007; Clark et al., 2020) are
+still inadequate because of the small size and limited question types, i.e.,
+they only cover answerable questions. To fill this gap, we build a new
+Indonesian MRC dataset called I(n)don'tKnow- MRC (IDK-MRC) by combining the
+automatic and manual unanswerable question generation to minimize the cost of
+manual dataset construction while maintaining the dataset quality. Combined
+with the existing answerable questions, IDK-MRC consists of more than 10K
+questions in total. Our analysis shows that our dataset significantly improves
+the performance of Indonesian MRC models, showing a large improvement for
+unanswerable questions.";['cs.CL'];2022
+Referee: Reference-Free Sentence Summarization with Sharper Controllability through Symbolic Knowledge Distillation;[arxiv.Result.Author('Melanie Sclar'), arxiv.Result.Author('Peter West'), arxiv.Result.Author('Sachin Kumar'), arxiv.Result.Author('Yulia Tsvetkov'), arxiv.Result.Author('Yejin Choi')];"We present Referee, a novel framework for sentence summarization that can be
+trained reference-free (i.e., requiring no gold summaries for supervision),
+while allowing direct control for compression ratio. Our work is the first to
+demonstrate that reference-free, controlled sentence summarization is feasible
+via the conceptual framework of Symbolic Knowledge Distillation (West et al.,
+2022), where latent knowledge in pre-trained language models is distilled via
+explicit examples sampled from the teacher models, further purified with three
+types of filters: length, fidelity, and Information Bottleneck. Moreover, we
+uniquely propose iterative distillation of knowledge, where student models from
+the previous iteration of distillation serve as teacher models in the next
+iteration. Starting off from a relatively modest set of GPT3-generated
+summaries, we demonstrate how iterative knowledge distillation can lead to
+considerably smaller, but better summarizers with sharper controllability. A
+useful by-product of this iterative distillation process is a high-quality
+dataset of sentence-summary pairs with varying degrees of compression ratios.
+Empirical results demonstrate that the final student models vastly outperform
+the much larger GPT3-Instruct model in terms of the controllability of
+compression ratios, without compromising the quality of resulting
+summarization.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+EW-Tune: A Framework for Privately Fine-Tuning Large Language Models with Differential Privacy;[arxiv.Result.Author('Rouzbeh Behnia'), arxiv.Result.Author('Mohamamdreza Ebrahimi'), arxiv.Result.Author('Jason Pacheco'), arxiv.Result.Author('balaji Padmanabhan')];"Pre-trained Large Language Models (LLMs) are an integral part of modern AI
+that have led to breakthrough performances in complex AI tasks. Major AI
+companies with expensive infrastructures are able to develop and train these
+large models with billions and millions of parameters from scratch. Third
+parties, researchers, and practitioners are increasingly adopting these
+pre-trained models and fine-tuning them on their private data to accomplish
+their downstream AI tasks. However, it has been shown that an adversary can
+extract/reconstruct the exact training samples from these LLMs, which can lead
+to revealing personally identifiable information. The issue has raised deep
+concerns about the privacy of LLMs. Differential privacy (DP) provides a
+rigorous framework that allows adding noise in the process of training or
+fine-tuning LLMs such that extracting the training data becomes infeasible
+(i.e., with a cryptographically small success probability). While the
+theoretical privacy guarantees offered in most extant studies assume learning
+models from scratch through many training iterations in an asymptotic setting,
+this assumption does not hold in fine-tuning scenarios in which the number of
+training iterations is significantly smaller. To address the gap, we present
+\ewtune, a DP framework for fine-tuning LLMs based on Edgeworth accountant with
+finite-sample privacy guarantees. Our results across four well-established
+natural language understanding (NLU) tasks show that while \ewtune~adds privacy
+guarantees to LLM fine-tuning process, it directly contributes to decreasing
+the induced noise to up to 5.6\% and improves the state-of-the-art LLMs
+performance by up to 1.1\% across all NLU tasks. We have open-sourced our
+implementations for wide adoption and public testing purposes.";['cs.CR', 'cs.CL'];2022
+Token-level Sequence Labeling for Spoken Language Understanding using Compositional End-to-End Models;[arxiv.Result.Author('Siddhant Arora'), arxiv.Result.Author('Siddharth Dalmia'), arxiv.Result.Author('Brian Yan'), arxiv.Result.Author('Florian Metze'), arxiv.Result.Author('Alan W Black'), arxiv.Result.Author('Shinji Watanabe')];"End-to-end spoken language understanding (SLU) systems are gaining popularity
+over cascaded approaches due to their simplicity and ability to avoid error
+propagation. However, these systems model sequence labeling as a sequence
+prediction task causing a divergence from its well-established token-level
+tagging formulation. We build compositional end-to-end SLU systems that
+explicitly separate the added complexity of recognizing spoken mentions in SLU
+from the NLU task of sequence labeling. By relying on intermediate decoders
+trained for ASR, our end-to-end systems transform the input modality from
+speech to token-level representations that can be used in the traditional
+sequence labeling framework. This composition of ASR and NLU formulations in
+our end-to-end SLU system offers direct compatibility with pre-trained ASR and
+NLU systems, allows performance monitoring of individual components and enables
+the use of globally normalized losses like CRF, making them attractive in
+practical scenarios. Our models outperform both cascaded and direct end-to-end
+models on a labeling task of named entity recognition across SLU benchmarks.";['cs.CL', 'cs.SD', 'eess.AS'];2022
+Debiasing Masks: A New Framework for Shortcut Mitigation in NLU;[arxiv.Result.Author('Johannes Mario Meissner'), arxiv.Result.Author('Saku Sugawara'), arxiv.Result.Author('Akiko Aizawa')];"Debiasing language models from unwanted behaviors in Natural Language
+Understanding tasks is a topic with rapidly increasing interest in the NLP
+community. Spurious statistical correlations in the data allow models to
+perform shortcuts and avoid uncovering more advanced and desirable linguistic
+features. A multitude of effective debiasing approaches has been proposed, but
+flexibility remains a major issue. For the most part, models must be retrained
+to find a new set of weights with debiased behavior. We propose a new debiasing
+method in which we identify debiased pruning masks that can be applied to a
+finetuned model. This enables the selective and conditional application of
+debiasing behaviors. We assume that bias is caused by a certain subset of
+weights in the network; our method is, in essence, a mask search to identify
+and remove biased weights. Our masks show equivalent or superior performance to
+the standard counterparts, while offering important benefits. Pruning masks can
+be stored with high efficiency in memory, and it becomes possible to switch
+among several debiasing behaviors (or revert back to the original biased model)
+at inference time. Finally, it opens the doors to further research on how
+biases are acquired by studying the generated masks. For example, we observed
+that the early layers and attention heads were pruned more aggressively,
+possibly hinting towards the location in which biases may be encoded.";['cs.CL'];2022
+Parameter-Efficient Tuning Makes a Good Classification Head;[arxiv.Result.Author('Zhuoyi Yang'), arxiv.Result.Author('Ming Ding'), arxiv.Result.Author('Yanhui Guo'), arxiv.Result.Author('Qingsong Lv'), arxiv.Result.Author('Jie Tang')];"In recent years, pretrained models revolutionized the paradigm of natural
+language understanding (NLU), where we append a randomly initialized
+classification head after the pretrained backbone, e.g. BERT, and finetune the
+whole model. As the pretrained backbone makes a major contribution to the
+improvement, we naturally expect a good pretrained classification head can also
+benefit the training. However, the final-layer output of the backbone, i.e. the
+input of the classification head, will change greatly during finetuning, making
+the usual head-only pretraining (LP-FT) ineffective. In this paper, we find
+that parameter-efficient tuning makes a good classification head, with which we
+can simply replace the randomly initialized heads for a stable performance
+gain. Our experiments demonstrate that the classification head jointly
+pretrained with parameter-efficient tuning consistently improves the
+performance on 9 tasks in GLUE and SuperGLUE.";['cs.CL', 'cs.LG'];2022
+Learning to Decompose: Hypothetical Question Decomposition Based on Comparable Texts;[arxiv.Result.Author('Ben Zhou'), arxiv.Result.Author('Kyle Richardson'), arxiv.Result.Author('Xiaodong Yu'), arxiv.Result.Author('Dan Roth')];"Explicit decomposition modeling, which involves breaking down complex tasks
+into more straightforward and often more interpretable sub-tasks, has long been
+a central theme in developing robust and interpretable NLU systems. However,
+despite the many datasets and resources built as part of this effort, the
+majority have small-scale annotations and limited scope, which is insufficient
+to solve general decomposition tasks. In this paper, we look at large-scale
+intermediate pre-training of decomposition-based transformers using distant
+supervision from comparable texts, particularly large-scale parallel news. We
+show that with such intermediate pre-training, developing robust
+decomposition-based models for a diverse range of tasks becomes more feasible.
+For example, on semantic parsing, our model, DecompT5, improves 20% to 30% on
+two datasets, Overnight and TORQUE, over the baseline language model. We
+further use DecompT5 to build a novel decomposition-based QA system named
+DecompEntail, improving over state-of-the-art models, including GPT-3, on both
+HotpotQA and StrategyQA by 8% and 4%, respectively.";['cs.CL'];2022
+Pneg: Prompt-based Negative Response Generation for Dialogue Response Selection Task;[arxiv.Result.Author('Nyoungwoo Lee'), arxiv.Result.Author('ChaeHun Park'), arxiv.Result.Author('Ho-Jin Choi'), arxiv.Result.Author('Jaegul Choo')];"In retrieval-based dialogue systems, a response selection model acts as a
+ranker to select the most appropriate response among several candidates.
+However, such selection models tend to rely on context-response content
+similarity, which makes models vulnerable to adversarial responses that are
+semantically similar but not relevant to the dialogue context. Recent studies
+have shown that leveraging these adversarial responses as negative training
+samples is useful for improving the discriminating power of the selection
+model. Nevertheless, collecting human-written adversarial responses is
+expensive, and existing synthesizing methods often have limited scalability. To
+overcome these limitations, this paper proposes a simple but efficient method
+for generating adversarial negative responses leveraging a large-scale language
+model. Experimental results on dialogue selection tasks show that our method
+outperforms other methods of synthesizing adversarial negative responses. These
+results suggest that our method can be an effective alternative to human
+annotators in generating adversarial responses. Our dataset and generation code
+is available at https://github.com/leenw23/generating-negatives-by-gpt3.";['cs.CL'];2022
+Leveraging Pre-trained Models for Failure Analysis Triplets Generation;[arxiv.Result.Author('Kenneth Ezukwoke'), arxiv.Result.Author('Anis Hoayek'), arxiv.Result.Author('Mireille Batton-Hubert'), arxiv.Result.Author('Xavier Boucher'), arxiv.Result.Author('Pascal Gounet'), arxiv.Result.Author('Jerome Adrian')];"Pre-trained Language Models recently gained traction in the Natural Language
+Processing (NLP) domain for text summarization, generation and
+question-answering tasks. This stems from the innovation introduced in
+Transformer models and their overwhelming performance compared with Recurrent
+Neural Network Models (Long Short Term Memory (LSTM)). In this paper, we
+leverage the attention mechanism of pre-trained causal language models such as
+Transformer model for the downstream task of generating Failure Analysis
+Triplets (FATs) - a sequence of steps for analyzing defected components in the
+semiconductor industry. We compare different transformer models for this
+generative task and observe that Generative Pre-trained Transformer 2 (GPT2)
+outperformed other transformer model for the failure analysis triplet
+generation (FATG) task. In particular, we observe that GPT2 (trained on 1.5B
+parameters) outperforms pre-trained BERT, BART and GPT3 by a large margin on
+ROUGE. Furthermore, we introduce Levenshstein Sequential Evaluation metric
+(LESE) for better evaluation of the structured FAT data and show that it
+compares exactly with human judgment than existing metrics.";"['cs.CL', 'cs.LG', 'stat.AP', '68Txx, 68Uxx', 'G.3; I.2; I.7']";2022
+BotSIM: An End-to-End Bot Simulation Framework for Commercial Task-Oriented Dialog Systems;[arxiv.Result.Author('Guangsen Wang'), arxiv.Result.Author('Samson Tan'), arxiv.Result.Author('Shafiq Joty'), arxiv.Result.Author('Gang Wu'), arxiv.Result.Author('Jimmy Au'), arxiv.Result.Author('Steven Hoi')];"We present BotSIM, a data-efficient end-to-end Bot SIMulation toolkit for
+commercial text-based task-oriented dialog (TOD) systems. BotSIM consists of
+three major components: 1) a Generator that can infer semantic-level dialog
+acts and entities from bot definitions and generate user queries via
+model-based paraphrasing; 2) an agenda-based dialog user Simulator (ABUS) to
+simulate conversations with the dialog agents; 3) a Remediator to analyze the
+simulated conversations, visualize the bot health reports and provide
+actionable remediation suggestions for bot troubleshooting and improvement. We
+demonstrate BotSIM's effectiveness in end-to-end evaluation, remediation and
+multi-intent dialog generation via case studies on two commercial bot
+platforms. BotSIM's ""generation-simulation-remediation"" paradigm accelerates
+the end-to-end bot evaluation and iteration process by: 1) reducing manual test
+cases creation efforts; 2) enabling a holistic gauge of the bot in terms of NLU
+and end-to-end performance via extensive dialog simulation; 3) improving the
+bot troubleshooting process with actionable suggestions. A demo of our system
+can be found at https://tinyurl.com/mryu74cd and a demo video at
+https://youtu.be/qLi5iSoly30. We have open-sourced the toolkit at
+https://github.com/salesforce/botsim";['cs.CL'];2022
+VarMAE: Pre-training of Variational Masked Autoencoder for Domain-adaptive Language Understanding;[arxiv.Result.Author('Dou Hu'), arxiv.Result.Author('Xiaolong Hou'), arxiv.Result.Author('Xiyang Du'), arxiv.Result.Author('Mengyuan Zhou'), arxiv.Result.Author('Lianxin Jiang'), arxiv.Result.Author('Yang Mo'), arxiv.Result.Author('Xiaofeng Shi')];"Pre-trained language models have achieved promising performance on general
+benchmarks, but underperform when migrated to a specific domain. Recent works
+perform pre-training from scratch or continual pre-training on domain corpora.
+However, in many specific domains, the limited corpus can hardly support
+obtaining precise representations. To address this issue, we propose a novel
+Transformer-based language model named VarMAE for domain-adaptive language
+understanding. Under the masked autoencoding objective, we design a context
+uncertainty learning module to encode the token's context into a smooth latent
+distribution. The module can produce diverse and well-formed contextual
+representations. Experiments on science- and finance-domain NLU tasks
+demonstrate that VarMAE can be efficiently adapted to new domains with limited
+resources.";['cs.CL', 'cs.AI'];2022
+End-to-End Evaluation of a Spoken Dialogue System for Learning Basic Mathematics;[arxiv.Result.Author('Eda Okur'), arxiv.Result.Author('Saurav Sahay'), arxiv.Result.Author('Roddy Fuentes Alba'), arxiv.Result.Author('Lama Nachman')];"The advances in language-based Artificial Intelligence (AI) technologies
+applied to build educational applications can present AI for social-good
+opportunities with a broader positive impact. Across many disciplines,
+enhancing the quality of mathematics education is crucial in building critical
+thinking and problem-solving skills at younger ages. Conversational AI systems
+have started maturing to a point where they could play a significant role in
+helping students learn fundamental math concepts. This work presents a
+task-oriented Spoken Dialogue System (SDS) built to support play-based learning
+of basic math concepts for early childhood education. The system has been
+evaluated via real-world deployments at school while the students are
+practicing early math concepts with multimodal interactions. We discuss our
+efforts to improve the SDS pipeline built for math learning, for which we
+explore utilizing MathBERT representations for potential enhancement to the
+Natural Language Understanding (NLU) module. We perform an end-to-end
+evaluation using real-world deployment outputs from the Automatic Speech
+Recognition (ASR), Intent Recognition, and Dialogue Manager (DM) components to
+understand how error propagation affects the overall performance in real-world
+scenarios.";['cs.CL'];2022
+ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications;[arxiv.Result.Author('Juan Zuluaga-Gomez'), arxiv.Result.Author('Karel Veselý'), arxiv.Result.Author('Igor Szöke'), arxiv.Result.Author('Petr Motlicek'), arxiv.Result.Author('Martin Kocour'), arxiv.Result.Author('Mickael Rigault'), arxiv.Result.Author('Khalid Choukri'), arxiv.Result.Author('Amrutha Prasad'), arxiv.Result.Author('Seyyed Saeed Sarfjoo'), arxiv.Result.Author('Iuliia Nigmatulina'), arxiv.Result.Author('Claudia Cevenini'), arxiv.Result.Author('Pavel Kolčárek'), arxiv.Result.Author('Allan Tart'), arxiv.Result.Author('Jan Černocký')];"Personal assistants, automatic speech recognizers and dialogue understanding
+systems are becoming more critical in our interconnected digital world. A clear
+example is air traffic control (ATC) communications. ATC aims at guiding
+aircraft and controlling the airspace in a safe and optimal manner. These
+voice-based dialogues are carried between an air traffic controller (ATCO) and
+pilots via very-high frequency radio channels. In order to incorporate these
+novel technologies into ATC (low-resource domain), large-scale annotated
+datasets are required to develop the data-driven AI systems. Two examples are
+automatic speech recognition (ASR) and natural language understanding (NLU). In
+this paper, we introduce the ATCO2 corpus, a dataset that aims at fostering
+research on the challenging ATC field, which has lagged behind due to lack of
+annotated data. The ATCO2 corpus covers 1) data collection and pre-processing,
+2) pseudo-annotations of speech data, and 3) extraction of ATC-related named
+entities. The ATCO2 corpus is split into three subsets. 1) ATCO2-test-set
+corpus contains 4 hours of ATC speech with manual transcripts and a subset with
+gold annotations for named-entity recognition (callsign, command, value). 2)
+The ATCO2-PL-set corpus consists of 5281 hours of unlabeled ATC data enriched
+with automatic transcripts from an in-domain speech recognizer, contextual
+information, speaker turn information, signal-to-noise ratio estimate and
+English language detection score per sample. Both available for purchase
+through ELDA at http://catalog.elra.info/en-us/repository/browse/ELRA-S0484. 3)
+The ATCO2-test-set-1h corpus is a one-hour subset from the original test set
+corpus, that we are offering for free at https://www.atco2.org/data. We expect
+the ATCO2 corpus will foster research on robust ASR and NLU not only in the
+field of ATC communications but also in the general research community.";['cs.CL', 'cs.AI', 'cs.SD', 'eess.AS'];2022
+Local Structure Matters Most in Most Languages;[arxiv.Result.Author('Louis Clouâtre'), arxiv.Result.Author('Prasanna Parthasarathi'), arxiv.Result.Author('Amal Zouaq'), arxiv.Result.Author('Sarath Chandar')];"Many recent perturbation studies have found unintuitive results on what does
+and does not matter when performing Natural Language Understanding (NLU) tasks
+in English. Coding properties, such as the order of words, can often be removed
+through shuffling without impacting downstream performances. Such insight may
+be used to direct future research into English NLP models. As many improvements
+in multilingual settings consist of wholesale adaptation of English approaches,
+it is important to verify whether those studies replicate or not in
+multilingual settings. In this work, we replicate a study on the importance of
+local structure, and the relative unimportance of global structure, in a
+multilingual setting. We find that the phenomenon observed on the English
+language broadly translates to over 120 languages, with a few caveats.";['cs.CL'];2022
+LERT: A Linguistically-motivated Pre-trained Language Model;[arxiv.Result.Author('Yiming Cui'), arxiv.Result.Author('Wanxiang Che'), arxiv.Result.Author('Shijin Wang'), arxiv.Result.Author('Ting Liu')];"Pre-trained Language Model (PLM) has become a representative foundation model
+in the natural language processing field. Most PLMs are trained with
+linguistic-agnostic pre-training tasks on the surface form of the text, such as
+the masked language model (MLM). To further empower the PLMs with richer
+linguistic features, in this paper, we aim to propose a simple but effective
+way to learn linguistic features for pre-trained language models. We propose
+LERT, a pre-trained language model that is trained on three types of linguistic
+features along with the original MLM pre-training task, using a
+linguistically-informed pre-training (LIP) strategy. We carried out extensive
+experiments on ten Chinese NLU tasks, and the experimental results show that
+LERT could bring significant improvements over various comparable baselines.
+Furthermore, we also conduct analytical experiments in various linguistic
+aspects, and the results prove that the design of LERT is valid and effective.
+Resources are available at https://github.com/ymcui/LERT";['cs.CL', 'cs.LG'];2022
+A Survey of Knowledge-Enhanced Pre-trained Language Models;[arxiv.Result.Author('Linmei Hu'), arxiv.Result.Author('Zeyi Liu'), arxiv.Result.Author('Ziwang Zhao'), arxiv.Result.Author('Lei Hou'), arxiv.Result.Author('Liqiang Nie'), arxiv.Result.Author('Juanzi Li')];"Pre-trained Language Models (PLMs) which are trained on large text corpus via
+self-supervised learning method, have yielded promising performance on various
+tasks in Natural Language Processing (NLP). However, though PLMs with huge
+parameters can effectively possess rich knowledge learned from massive training
+text and benefit downstream tasks at the fine-tuning stage, they still have
+some limitations such as poor reasoning ability due to the lack of external
+knowledge. Research has been dedicated to incorporating knowledge into PLMs to
+tackle these issues. In this paper, we present a comprehensive review of
+Knowledge-Enhanced Pre-trained Language Models (KE-PLMs) to provide a clear
+insight into this thriving field. We introduce appropriate taxonomies
+respectively for Natural Language Understanding (NLU) and Natural Language
+Generation (NLG) to highlight these two main tasks of NLP. For NLU, we divide
+the types of knowledge into four categories: linguistic knowledge, text
+knowledge, knowledge graph (KG), and rule knowledge. The KE-PLMs for NLG are
+categorized into KG-based and retrieval-based methods. Finally, we point out
+some promising future directions of KE-PLMs.";['cs.CL'];2022
+UGIF: UI Grounded Instruction Following;[arxiv.Result.Author('Sagar Gubbi Venkatesh'), arxiv.Result.Author('Partha Talukdar'), arxiv.Result.Author('Srini Narayanan')];"New smartphone users have difficulty engaging with it and often use only a
+limited set of features like calling and messaging. These users are hesitant to
+explore using the smartphone and rely on experienced users to teach them how to
+use the phone. However, experienced users are not always around to guide them.
+To help new users learn how to use the phone on their own, we propose a natural
+language based instruction following agent that operates over the UI and shows
+the user how to perform various tasks. Common how-to questions, such as ""How to
+block calls from unknown numbers?"", are documented on support sites with a
+sequence of steps in natural language describing what the user should do. We
+parse these steps using Large Language Models (LLMs) and generate macros that
+can be executed on-device when the user asks a query. To evaluate this agent,
+we introduce UGIF-DataSet, a multi-lingual, multi-modal UI grounded dataset for
+step-by-step task completion on the smartphone. It contains 523 natural
+language instructions with paired sequences of multilingual UI screens and
+actions that show how to execute the task in eight languages. We compare the
+performance of different large language models including PaLM, GPT3, etc. and
+find that the end-to-end task completion success rate is 48% for English UI but
+the performance drops to 32% for non-English languages. We analyse the common
+failure modes of existing models on this task and point out areas for
+improvement.";['cs.CL'];2022
+Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs;[arxiv.Result.Author('Kyle Richardson'), arxiv.Result.Author('Ronen Tamari'), arxiv.Result.Author('Oren Sultan'), arxiv.Result.Author('Reut Tsarfaty'), arxiv.Result.Author('Dafna Shahaf'), arxiv.Result.Author('Ashish Sabharwal')];"Can we teach natural language understanding models to track their beliefs
+through intermediate points in text? We propose a representation learning
+framework called breakpoint modeling that allows for learning of this type.
+Given any text encoder and data marked with intermediate states (breakpoints)
+along with corresponding textual queries viewed as true/false propositions
+(i.e., the candidate beliefs of a model, consisting of information changing
+through time) our approach trains models in an efficient and end-to-end fashion
+to build intermediate representations that facilitate teaching and direct
+querying of beliefs at arbitrary points alongside solving other end tasks. To
+show the benefit of our approach, we experiment with a diverse set of NLU tasks
+including relational reasoning on CLUTRR and narrative understanding on bAbI.
+Using novel belief prediction tasks for both tasks, we show the benefit of our
+main breakpoint transformer, based on T5, over conventional representation
+learning approaches in terms of processing efficiency, prediction accuracy and
+prediction consistency, all with minimal to no effect on corresponding QA end
+tasks. To show the feasibility of incorporating our belief tracker into more
+complex reasoning pipelines, we also obtain SOTA performance on the
+three-tiered reasoning challenge for the TRIP benchmark (around 23-32% absolute
+improvement on Tasks 2-3).";['cs.CL'];2022
+Reflect, Not Reflex: Inference-Based Common Ground Improves Dialogue Response Quality;[arxiv.Result.Author('Pei Zhou'), arxiv.Result.Author('Hyundong Cho'), arxiv.Result.Author('Pegah Jandaghi'), arxiv.Result.Author('Dong-Ho Lee'), arxiv.Result.Author('Bill Yuchen Lin'), arxiv.Result.Author('Jay Pujara'), arxiv.Result.Author('Xiang Ren')];"Human communication relies on common ground (CG), the mutual knowledge and
+beliefs shared by participants, to produce coherent and interesting
+conversations. In this paper, we demonstrate that current response generation
+(RG) models produce generic and dull responses in dialogues because they act
+reflexively, failing to explicitly model CG, both due to the lack of CG in
+training data and the standard RG training procedure. We introduce Reflect, a
+dataset that annotates dialogues with explicit CG (materialized as inferences
+approximating shared knowledge and beliefs) and solicits 9k diverse
+human-generated responses each following one common ground. Using Reflect, we
+showcase the limitations of current dialogue data and RG models: less than half
+of the responses in current data are rated as high quality (sensible, specific,
+and interesting) and models trained using this data have even lower quality,
+while most Reflect responses are judged high quality. Next, we analyze whether
+CG can help models produce better-quality responses by using Reflect CG to
+guide RG models. Surprisingly, we find that simply prompting GPT3 to ""think""
+about CG generates 30% more quality responses, showing promising benefits to
+integrating CG into the RG process.";['cs.CL', 'cs.AI', 'cs.LG'];2022
+ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers;[arxiv.Result.Author('Zhewei Yao'), arxiv.Result.Author('Reza Yazdani Aminabadi'), arxiv.Result.Author('Minjia Zhang'), arxiv.Result.Author('Xiaoxia Wu'), arxiv.Result.Author('Conglong Li'), arxiv.Result.Author('Yuxiong He')];"How to efficiently serve ever-larger trained natural language models in
+practice has become exceptionally challenging even for powerful cloud servers
+due to their prohibitive memory/computation requirements. In this work, we
+present an efficient and affordable post-training quantization approach to
+compress large Transformer-based models, termed as ZeroQuant. ZeroQuant is an
+end-to-end quantization and inference pipeline with three main components: (1)
+a fine-grained hardware-friendly quantization scheme for both weight and
+activations; (2) a novel affordable layer-by-layer knowledge distillation
+algorithm (LKD) even without the access to the original training data; (3) a
+highly-optimized quantization system backend support to remove the
+quantization/dequantization overhead. As such, we are able to show that: (1)
+ZeroQuant can reduce the precision for weights and activations to INT8 in a
+cost-free way for both BERT and GPT3-style models with minimal accuracy impact,
+which leads to up to 5.19x/4.16x speedup on those models compared to FP16
+inference; (2) ZeroQuant plus LKD affordably quantize the weights in the
+fully-connected module to INT4 along with INT8 weights in the attention module
+and INT8 activations, resulting in 3x memory footprint reduction compared to
+the FP16 model; (3) ZeroQuant can be directly applied to two of the largest
+open-sourced language models, including GPT-J6B and GPT-NeoX20, for which our
+INT8 model achieves similar accuracy as the FP16 model but achieves up to 5.2x
+better efficiency.";['cs.CL', 'cs.LG'];2022

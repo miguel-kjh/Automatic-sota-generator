@@ -1,24 +1,31 @@
 from arxiv import Search, SortCriterion
+import pandas as pd
+from tqdm import tqdm
 
-# Define las palabras clave para la búsqueda
+import warnings
+warnings.filterwarnings("ignore")
+
 keywords = "NLU, GPT3"
+year = 2019
 
-# Busca papers en arXiv.org
 search = Search(
     query=keywords,
     max_results=100,
     sort_by = SortCriterion.SubmittedDate
 )
 
-# Imprime los títulos de los papers encontrados
-print("Papers encontrados en arXiv:")
-for result in search.results():
-    print(result.title)
-    """print(result.summary)
-    print(result.authors)
-    print(result.published)"""
-    print(result.categories)
-    print(result.entry_id)
-    print(result.primary_category)
-    print(result.journal_ref)
-    print("#"*100)
+df = pd.DataFrame(columns=["title", "authors", "summary", "categories", "year"])
+
+for result in tqdm(search.results(), desc="Papers found"):
+    if result.published.year >= year:
+        df = df.append({
+            "title": result.title,
+            "authors": result.authors,
+            "summary": result.summary,
+            "categories": result.categories,
+            "year": result.published.year
+        }, ignore_index=True)
+
+#sort by years
+df = df.sort_values(by="year", ascending=False)
+df.to_csv("papers.csv", index=False, encoding="utf-8", sep=";")
